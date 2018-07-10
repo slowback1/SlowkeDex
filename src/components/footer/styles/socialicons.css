@@ -1,0 +1,18 @@
+.socialMediaList {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+    justify-content: space-between;
+}
+.socialMiediaList > img {
+    width: 20px;
+    height: 20px;
+}
+.facebook {
+    background-color: white;
+    border-radius: 5px;
+}
+.socialMediaList > img:hover {
+    cursor: pointer;
+}

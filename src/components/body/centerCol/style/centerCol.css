@@ -1,0 +1,4 @@
+.centerCol {
+    flex-grow: 60;
+    min-height: 1000px;
+}
