@@ -1,4 +1,4 @@
-let megaEvolutionDB = {
+let MegaEvolutionDB = {
     id_3: {
         stats: [80,100,123,122,120,80]
     },
@@ -150,3 +150,5 @@ let megaEvolutionDB = {
         stats:[50,160,110,160,110,110]
     }
 }
+
+export default MegaEvolutionDB;

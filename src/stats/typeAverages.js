@@ -130,7 +130,7 @@ const TypeAverages = {
         hp: 63,
         attack: 77,
         defense: 82,
-        specialSttack: 78,
+        specialAttack: 78,
         specialDefense: 77,
         speed: 61
     },
