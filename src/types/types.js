@@ -1,5 +1,4 @@
-let Types = [
-        ['grass','poison'],
+let Types = [['grass','poison'],
         ['grass', 'poison'],
         ['grass', 'poison'],
         ['fire'],

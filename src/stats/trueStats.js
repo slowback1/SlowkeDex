@@ -83,7 +83,7 @@ class TrueStats extends Component {
                 </div>
             );
             }
-}) }
+}) } 
             </div>
                     <PokeRight pokeID={this.state.pokeID} />
                 </div>

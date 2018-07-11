@@ -3206,7 +3206,27 @@ let PokemonDB = [
         {
             id: 802,
             name: "marshadow"
-        }
+        },
+       /* {
+            id: 803,
+            name: "poipole"
+        },
+        {
+            id: 804,
+            name: "naganadel"
+        },
+        {
+            id: 805,
+            name: "stakataka"
+        },
+        {
+            id: 806,
+            name: "blacephalon"
+        },
+        {
+            id: 807,
+            name: "zertaora"
+        }*/
     ]
     
 export default PokemonDB;
