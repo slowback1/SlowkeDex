@@ -2,7 +2,10 @@ import React from 'react';
 import Pokemon from '../pokemon/Pokemon';
 import Stats from './Stats';
 import Types from '../types/types';
+import TypeAverages from './typeAverages';
 import './stats.css';
+
+console.log(TypeAverages);
 
 const PokeRight = ({ pokeID }) => {
     let name=Pokemon[pokeID-1].name.charAt(0).toUpperCase() + Pokemon[pokeID-1].name.slice(1);
@@ -38,37 +41,38 @@ const PokeRight = ({ pokeID }) => {
                         <div className="n">
                             <p>hp {Stats[pokeID-1][0]}</p>
                             <div className="stats">
-                                <div className={`stat_${Stats[pokeID-1][0]} stat hp`}></div>
+                                <div className={`stat_${Stats[pokeID-1][0]} stat hp`}>                <div className={`average1`} style={{width: TypeAverages[`${Types[pokeID-1][0]}`].hp}}><div className={`average2`} style={{width: TypeAverages[`${Types[pokeID-1][1]}`].hp}}></div></div></div>
+                
                             </div>
                         </div>
                         <div className="n">
                             <p>attack {Stats[pokeID-1][1]}</p>
                             <div className="stats">
-                                <div className={`stat_${Stats[pokeID-1][1]} stat attack`}></div>
+                                <div className={`stat_${Stats[pokeID-1][1]} stat attack`}>                <div className={`average1`} style={{width: TypeAverages[`${Types[pokeID-1][0]}`].attack}}><div className={`average2`} style={{width: TypeAverages[`${Types[pokeID-1][1]}`].attack}}></div></div></div>
                             </div>
                         </div>
                         <div className="n">
                             <p>defense {Stats[pokeID-1][2]}</p>
                             <div className="stats">
-                                <div className={`stat_${Stats[pokeID-1][2]} stat defense`}></div>
+                                <div className={`stat_${Stats[pokeID-1][2]} stat defense`}>                <div className={`average1`} style={{width: TypeAverages[`${Types[pokeID-1][0]}`].defense}}><div className={`average2`} style={{width: TypeAverages[`${Types[pokeID-1][1]}`].defense}}></div></div></div>
                             </div>
                         </div>
                         <div className="n">
                             <p>special attack {Stats[pokeID-1][3]}</p>
                             <div className="stats">
-                                <div className={`stat_${Stats[pokeID-1][3]} stat specialAttack`}></div>
+                                <div className={`stat_${Stats[pokeID-1][3]} stat specialAttack`}>                <div className={`average1`} style={{width: TypeAverages[`${Types[pokeID-1][0]}`].specialAttack}}><div className={`average2`} style={{width: TypeAverages[`${Types[pokeID-1][1]}`].specialAttack}}></div></div></div>
                             </div>
                         </div>
                         <div className="n">
                             <p> special defense {Stats[pokeID-1][4]}</p>
                             <div className="stats">
-                                <div className={`stat_${Stats[pokeID-1][4]} stat specialDefense`}></div>
+                                <div className={`stat_${Stats[pokeID-1][4]} stat specialDefense`}>                <div className={`average1`} style={{width: TypeAverages[`${Types[pokeID-1][0]}`].specialDefense}}><div className={`average2`} style={{width: TypeAverages[`${Types[pokeID-1][1]}`].specialDefense}}></div></div></div>
                             </div>
                         </div>
                         <div className="nn">
                             <p> speed {Stats[pokeID-1][5]}</p>
                             <div className="stats">
-                                <div className={`stat_${Stats[pokeID-1][5]} stat speed`}></div>
+                                <div className={`stat_${Stats[pokeID-1][5]} stat speed`}>                <div className={`average1`} style={{width: TypeAverages[`${Types[pokeID-1][0]}`].speed}}><div className={`average2`} style={{width: TypeAverages[`${Types[pokeID-1][1]}`].speed}}></div></div></div>
                             </div>
                         </div>
                     </div>
@@ -106,37 +110,37 @@ const PokeRight = ({ pokeID }) => {
                         <div className="n">
                             <p>hp {Stats[pokeID-1][0]}</p>
                             <div className="stats">
-                                <div className={`stat_${Stats[pokeID-1][0]} stat hp`}></div>
+                                <div className={`stat_${Stats[pokeID-1][0]} stat hp`}><div className={`average1`} style={{width: TypeAverages[`${Types[pokeID-1][0]}`].hp}}></div></div>
                             </div>
                         </div>
                         <div className="n">
                             <p>attack {Stats[pokeID-1][1]}</p>
                             <div className="stats">
-                                <div className={`stat_${Stats[pokeID-1][1]} stat attack`}></div>
+                                <div className={`stat_${Stats[pokeID-1][1]} stat attack`}><div className={`average1`} style={{width: TypeAverages[`${Types[pokeID-1][0]}`].attack}}></div></div>
                             </div>
                         </div>
                         <div className="n">
                             <p>defense {Stats[pokeID-1][2]}</p>
                             <div className="stats">
-                                <div className={`stat_${Stats[pokeID-1][2]} stat defense`}></div>
+                                <div className={`stat_${Stats[pokeID-1][2]} stat defense`}><div className={`average1`} style={{width: TypeAverages[`${Types[pokeID-1][0]}`].defense}}></div></div>
                             </div>
                         </div>
                         <div className="n">
                             <p>special attack {Stats[pokeID-1][3]}</p>
                             <div className="stats">
-                                <div className={`stat_${Stats[pokeID-1][3]} stat specialAttack`}></div>
+                                <div className={`stat_${Stats[pokeID-1][3]} stat specialAttack`}><div className={`average1`} style={{width: TypeAverages[`${Types[pokeID-1][0]}`].specialAttack}}></div></div>
                             </div>
                         </div>
                         <div className="n">
                             <p> special defense {Stats[pokeID-1][4]}</p>
                             <div className="stats">
-                                <div className={`stat_${Stats[pokeID-1][4]} stat specialDefense`}></div>
+                                <div className={`stat_${Stats[pokeID-1][4]} stat specialDefense`}><div className={`average1`} style={{width: TypeAverages[`${Types[pokeID-1][0]}`].specialDefense}}></div></div>
                             </div>
                         </div>
                         <div className="nn">
                             <p> speed {Stats[pokeID-1][5]}</p>
                             <div className="stats">
-                                <div className={`stat_${Stats[pokeID-1][5]} stat speed`}></div>
+                                <div className={`stat_${Stats[pokeID-1][5]} stat speed`}><div className={`average1`} style={{width: TypeAverages[`${Types[pokeID-1][0]}`].speed}}></div></div>
                             </div>
                         </div>
                     </div>

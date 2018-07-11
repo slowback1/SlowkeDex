@@ -14,5 +14,4 @@ and stats for the first 803 Pokemon.  This was made without the use of the Pokem
 * add a button that, when applicable, shows the sprite/stats for an alola version of pokemon
 * create a color overlay for the pictures of Pokemon
 * pretty it up!
-* clean up filetree.
 * bugfix

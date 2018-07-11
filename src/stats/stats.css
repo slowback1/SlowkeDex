@@ -2044,13 +2044,15 @@ stat_13 {
     color: #eaeaea;
     text-shadow: 1px 1px #111;
     text-align: center;
-    border-top: 1px solid #eaeaea;
+    
 }
 .typesA {
-    border-right: 2px solid #eaeaea;
+    border-right: 2px solid #101010;
+    border-top: 1px solid #101010;
     border-top-right-radius: 5%;
 }
 .typesB {
+    border-top: 1px solid #eaeaea;
     border-left: 2px solid #eaeaea;
     border-top-left-radius: 5%;
 }
@@ -2075,6 +2077,7 @@ stat_13 {
 .fire {
     background-color: #ff1121;
 }
+
 .flying {
     background-color: #53c6e2;
 }
@@ -2220,4 +2223,19 @@ stat_13 {
 .speed {
     background-color: #ea59e5;
     border-bottom: none;
+}
+.average1 {
+
+
+    height: 12px;
+    
+    z-index: 500;
+    border-right: 2px dashed #000;
+}
+.average2 {
+    position: absolute;
+
+    height: 12px;
+    z-index: 500;
+    border-right: 2px dashed #fff;
 }
