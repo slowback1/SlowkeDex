@@ -35,9 +35,9 @@ let cd = 1;//Math.floor(Math.random() * 803);
 class TrueStats extends Component {
 
      handleOnClick(e) {
-        console.log(e.target.id);
+        
         this.setState({pokeID: e.target.id});
-        console.log(this.pokeID);
+     
     }
         constructor() {
         super();
@@ -60,25 +60,18 @@ class TrueStats extends Component {
                 <div className="g">
                                 <div className="pokeLeft">
                 { Pokemon.map((pokemon) => {
-        let pokemonID = pokemon.id;
-        console.log(pokemonID);
+ 
+
       if(pokemon.id % 3 === 0) { 
         return (
                 <div className="pokebox" key={pokemon.id} id={pokemon.id} onClick={this.handleOnClick} >
-                    <img src={`https://raw.githubusercontent.com/PokeApi/sprites/master/sprites/pokemon/${pokemon.id}.png`} id={pokemon.id} className="pokeSprite" alt="img" />
+                    <img src={require(`./sprites/${pokemon.id}.png`)} id={pokemon.id} className="pokeSprite" alt="img" />
                     <p id={pokemon.id}>#{pokemon.id} {pokemon.name}</p>
                 </div>
-            );} else if (pokemon.id === 802) {
-                return (
-                <div className="pokebox pokeboxFinal" key={pokemon.id} id={pokemon.id} onClick={this.handleOnClick}>
-                    <img src={`https://raw.githubusercontent.com/PokeApi/sprites/master/sprites/pokemon/${pokemon.id}.png`} className="pokeSprite" alt="img" id={pokemon.id} />
-                    <p id={pokemon.id}>#{pokemon.id} {pokemon.name}</p>
-                </div>
-            );
-            } else {
+            );}  else {
                 return (
                 <div className="pokebox pokeboxExtra" key={pokemon.id} id={pokemon.id} onClick={this.handleOnClick}>
-                    <img src={`https://raw.githubusercontent.com/PokeApi/sprites/master/sprites/pokemon/${pokemon.id}.png`} className="pokeSprite" id={pokemon.id} alt="img" />
+                    <img src={require(`./sprites/${pokemon.id}.png`)} className="pokeSprite" id={pokemon.id} alt="img" />
                     <p id={pokemon.id}>#{pokemon.id} {pokemon.name}</p>
                 </div>
             );

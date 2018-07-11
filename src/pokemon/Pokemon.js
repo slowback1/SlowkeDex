@@ -3207,7 +3207,7 @@ let PokemonDB = [
             id: 802,
             name: "marshadow"
         },
-       /* {
+        {
             id: 803,
             name: "poipole"
         },
@@ -3226,7 +3226,7 @@ let PokemonDB = [
         {
             id: 807,
             name: "zertaora"
-        }*/
-    ]
+        }
+    ];
     
 export default PokemonDB;

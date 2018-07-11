@@ -12,6 +12,7 @@ const TypeAverages = {
         attack: 73,
         defense: 74,
         specialAttack: 75,
+        specialDefense: 70,
         speed: 64
     },
     grass : {
