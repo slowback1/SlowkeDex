@@ -1,5 +1,5 @@
 import React from 'react';
-//eslint-diable-next-linee
+//eslint-disable-next-line
 import ListME from './listME'; 
 //eslint-disable-next-line
 
@@ -18,10 +18,16 @@ const PokeRight = ({ pokeID }) => {
     
 
 
-
+//eslint-disable-next-line
 if (pokeID == 3 || pokeID == 6 || pokeID == 9 || pokeID == 65 || pokeID == 94 || pokeID == 115 || pokeID == 127 || pokeID == 130 || pokeID == 142 || pokeID == 150 || pokeID == 181 || pokeID == 212 || pokeID == 214 || pokeID == 229 || pokeID == 248 || pokeID == 254 || pokeID == 257 || pokeID == 260 || pokeID == 282 || pokeID == 303 || pokeID == 306 || pokeID == 308 || pokeID == 310 || pokeID == 354 || pokeID == 359 || pokeID == 448 || pokeID == 445 || pokeID == 460 || pokeID == 15 || pokeID == 18 || pokeID == 80 || pokeID == 208 || pokeID == 302 || pokeID == 319 || pokeID == 323 || pokeID == 334 || pokeID == 362 || pokeID == 373 || pokeID == 376 || pokeID == 380 || pokeID == 381 || pokeID == 382 || pokeID == 383 || pokeID == 384 || pokeID == 428 || pokeID == 475 || pokeID == 531 || pokeID == 719) {
-        console.log(pokeID + " can mega evolve");
+     
+ 
+        //eslint-disable-next-line
         if (pokeID == 6 || pokeID == 150) {
+            let megaStatsX = MegaEvolutionDB[`id_${pokeID}_x`].stats;
+            let megaStatsY = MegaEvolutionDB[`id_${pokeID}_y`].stats;
+            console.log(megaStatsX);
+            console.log(megaStatsY);
             if(Types[pokeID-1].length > 1) {
         return (
                 <div className="pokeRight">
@@ -170,6 +176,7 @@ if (pokeID == 3 || pokeID == 6 || pokeID == 9 || pokeID == 65 || pokeID == 94 ||
                     );
             }
         }
+           let megaStats = MegaEvolutionDB[`id_${pokeID}`].stats;
         if(Types[pokeID-1].length > 1) {
         return (
                 <div className="pokeRight">
@@ -182,7 +189,7 @@ if (pokeID == 3 || pokeID == 6 || pokeID == 9 || pokeID == 65 || pokeID == 94 ||
                                         <p className="pokeRightID">
                         <div className="emHashtag">#</div>{pokeID}
                     </p>
-                    <div className="greenSpace"> <div>V</div>
+                    <div className="greenSpace"> <div onClick={console.log(megaStats)}>V</div>
                     </div>
                                         <p className="pokeRightName">
                         {name}

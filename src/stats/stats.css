@@ -258,6 +258,16 @@
         width: 83px;
     }
 }
+@keyframes stats_83 {
+    0% {
+        height: 12px;
+        width: 0%;
+    }
+    100% {
+        height: 12px;
+        width: 83px;
+    }
+}
 @keyframes stats_85{
     0% {
         height: 12px;
@@ -1870,6 +1880,9 @@
 .stat_139 {
     animation-name: stats_139;
 }
+.stat_155 {
+    animation-name: stats_155;
+}
 .stat_151 {
     animation-name: stats_151;
 }
@@ -2049,6 +2062,7 @@ stat_13 {
     width: 50%;
     height: 85%;
     padding: 35px;
+    margin-top: 21px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
