@@ -2204,4 +2204,202 @@ const MoveDB = {
         accuracy: 100,
         effect: "increases power the lower the user's speed"
     },
+        hail : {
+        name: "hail",
+        type: "ice",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "causes hailstorm for 5 turns"
+    },
+        hammerArm : {
+        name: "hammer arm",
+        type: "fighting",
+        category: "physical",
+        pp: 10,
+        power: 100,
+        accuracy: 90,
+        effect: "lowers user's speed one stage"
+    },
+        happyHour : {
+        name: "happyHour",
+        type: "normal",
+        category: "status",
+        pp: 30,
+        power: 0,
+        accuracy: 0,
+        effect: "doubles prize money in trainer battles"
+    },
+        harden : {
+        name: "harden",
+        type: "normal",
+        category: "status",
+        pp: 30,
+        power: 0,
+        accuracy: 0,
+        effect: "raises user's defense"
+    },
+        haze : {
+        name: "haze",
+        type: "ice",
+        category: "status",
+        pp: 30,
+        power: 0,
+        accuracy: 0,
+        effect: "resets all ability stages"
+    },
+        headCharge : {
+        name: "head charge",
+        type: "normal",
+        category: "physical",
+        pp: 15,
+        power: 120,
+        accuracy: 100,
+        effect: "user takes recoiil damage equal to 25% of the daamge inflicted"
+    },
+        headSmash : {
+        name: "head smash",
+        type: "rock",
+        category: "physical",
+        pp: 5,
+        power: 150,
+        accuracy: 80,
+        effect: "user receives half the damage inflited in recoil"
+    },
+        headbutt : {
+        name: "headbutt",
+        type: "normal",
+        category: "physical",
+        pp: 15,
+        power: 70,
+        accuracy: 100,
+        effect: "may cause opponent to flinch"
+    },
+        healBell : {
+        name: "heal bell",
+        type: "normal",
+        category: "status",
+        pp: 5,
+        power: 0,
+        accuracy: 0,
+        effect: "heals party's status problems"
+    },
+        healBlock : {
+        name: "heal block",
+        type: "psychic",
+        category: "status",
+        pp: 15,
+        power: 0,
+        accuracy: 100,
+        effect: "prevents opposing team from using any healing moves, items, or abilities for 5 turns"
+    },
+        healOrder : {
+        name: "heal order",
+        type: "bug",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "user recovers half the maximum hp"
+    },
+        healPulse : {
+        name: "heal pulse",
+        type: "psychic",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "restores half of the target's max hp"
+    },
+        healingWish : {
+        name: "healing wish",
+        type: "psychic",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "recovers pokemon switched in if user is ko'd"
+    },
+        heartStamp : {
+        name: "heart stamp",
+        type: "psychic",
+        category: "physical",
+        pp: 25,
+        power: 60,
+        accuracy: 100,
+        effect: "may flinch"
+    },
+        heatCrash : {
+        name: "heat crash",
+        type: "fire",
+        category: "physical",
+        pp: 10,
+        power: 1,
+        accuracy: 100,
+        effect: "increases damage based on the weight of user and opposing"
+    },
+      heatWave : {
+        name: "heat wave",
+        type: "fire",
+        category: "special",
+        pp: 10,
+        power: 95,
+        accuracy: 90,
+        effect: "may induce burn"
+    },
+        heavySlam : {
+        name: "heavy slam",
+        type: "steel",
+        category: "physical",
+        pp: 10,
+        power: 1,
+        accuracy: 100,
+        effect: "increases damage based on the weight of the user and opponent"
+    },
+        helpingHand : {
+        name: "helping hand",
+        type: "normal",
+        category: "status",
+        pp: 20,
+        power: 0,
+        accuracy: 0,
+        effect: "increases power of ally pokemon's attacks by 50%"
+    },
+        hex : {
+        name: "hex",
+        type: "ghost",
+        category: "special",
+        pp: 10,
+        power: 65,
+        accuracy: 100,
+        effect: "doubles damage when target has a status condition"
+    },
+        hiddenPower : {
+        name: "hidden power",
+        type: "normal",
+        category: "special",
+        pp: 15,
+        power: 60,
+        accuracy: 100,
+        effect: "type depends upon user's IVs"
+    },
+        highHorsepower : {
+        name: "high horsepower",
+        type: "ground",
+        category: "physical",
+        pp: 10,
+        power: 95,
+        accuracy: 95,
+        effect: "none"
+    },
+        highJumpKick : {
+        name: "high jump kick",
+        type: "fighting",
+        category: "physical",
+        pp: 10,
+        power: 130,
+        accuracy: 90,
+        effect: "if attack misses, user takes 1/2 max hp of damage"
+    },
 }
