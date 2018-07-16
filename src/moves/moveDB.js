@@ -1707,7 +1707,7 @@ const MoveDB = {
         pp: 15,
         power: 70,
         accuracy: 100,
-        effect: "damges pokemon to the side of the target equal to 1/16th of their max hp"
+        effect: "damages pokemon to the side of the target equal to 1/16th of their max hp"
     },
         flameCharge : {
         name: "flame charge",
@@ -2256,7 +2256,7 @@ const MoveDB = {
         pp: 15,
         power: 120,
         accuracy: 100,
-        effect: "user takes recoiil damage equal to 25% of the daamge inflicted"
+        effect: "user takes recoiil damage equal to 25% of the damage inflicted"
     },
         headSmash : {
         name: "head smash",
@@ -2402,4 +2402,2376 @@ const MoveDB = {
         accuracy: 90,
         effect: "if attack misses, user takes 1/2 max hp of damage"
     },
-}
+        holdBack : {
+        name: "hold back",
+        type: "normal",
+        category: "physical",
+        pp: 40,
+        power: 40,
+        accuracy: 100,
+        effect: "leaves foe with at least 1hp"
+    },
+        holdHands : {
+        name: "hold hands",
+        type: "normal",
+        category: "status",
+        pp: 40,
+        power: 0,
+        accuracy: 0,
+        effect: "none, just happiness"
+    },
+        honeClaws : {
+        name: "hone claws",
+        type: "dark",
+        category: "status",
+        pp: 15,
+        power: 0,
+        accuracy: 0,
+        effect: "raises user's attack and accuracy"
+    },
+        hornAttack : {
+        name: "horn attack",
+        type: "normal",
+        category: "physical",
+        pp: 25,
+        power: 65,
+        accuracy: 100,
+        effect: "none"
+    },
+        hornDrill : {
+        name: "horn drill",
+        type: "normal",
+        category: "physical",
+        pp: 5,
+        power: 1,
+        accuracy: 30,
+        effect: "may cause one-hit KO"
+    },
+        hornLeech : {
+        name: "horn leech",
+        type: "grass",
+        category: "physical",
+        pp: 10,
+        power: 75,
+        accuracy: 100,
+        effect: "user recovers half the damage inflicted"
+    },
+        howl : {
+        name: "howl",
+        type: "normal",
+        category: "status",
+        pp: 40,
+        power: 0,
+        accuracy: 0,
+        effect: "raises user's attack"
+    },
+        hurricane : {
+        name: "hurricane",
+        type: "flying",
+        category: "special",
+        pp: 10,
+        power: 110,
+        accuracy: 70,
+        effect: "may induce confusion"
+    },
+        hydroCannon : {
+        name: "hydro cannon",
+        type: "water",
+        category: "special",
+        pp: 5,
+        power: 150,
+        accuracy: 90,
+        effect: "user cannot attack next turn"
+    },
+        hydroPump : {
+        name: "hydro pump",
+        type: "water",
+        category: "special",
+        pp: 5,
+        power: 110,
+        accuracy: 80,
+        effect: "none"
+    },
+        hyperBeam : {
+        name: "hyper beam",
+        type: "normal",
+        category: "special",
+        pp: 5,
+        power: 150,
+        accuracy: 90,
+        effect: "user cannot attack on next turn"
+    },
+        hyperFang : {
+        name: "hyper fang",
+        type: "normal",
+        category: "physical",
+        pp: 15,
+        power: 80,
+        accuracy: 90,
+        effect: "may flinch"
+    },
+        hyperVoice : {
+        name: "hyper voice",
+        type: "normal",
+        category: "special",
+        pp: 10,
+        power: 90,
+        accuracy: 100,
+        effect: "none"
+    },
+        hyperspaceFury : {
+        name: "hyperspace fury",
+        type: "dark",
+        category: "physical",
+        pp: 5,
+        power: 100,
+        accuracy: "-",
+        effect: "hits through protect and detect"
+    },
+        hyperspaceHole : {
+        name: "hyperspace hole",
+        type: "psychic",
+        category: "special",
+        pp: 5,
+        power: 80,
+        accuracy:  "-",
+        effect: "hits through protect and detect"
+    },
+        hypnosis : {
+        name: "hypnosis",
+        type: "psychic",
+        category: "status",
+        pp: 20,
+        power: 0,
+        accuracy: 60,
+        effect: "induces sleep"
+    },
+        iceBall : {
+        name: "ice ball",
+        type: "ice",
+        category: "physical",
+        pp: 20,
+        power: 30,
+        accuracy: 90,
+        effect: "uses the same move for 5 turns; move's power raises if it hits"
+    },
+        iceBeam : {
+        name: "ice beam",
+        type: "ice",
+        category: "special",
+        pp: 10,
+        power: 90,
+        accuracy: 100,
+        effect: "may induce freeze"
+    },
+        iceBurn : {
+        name: "ice burn",
+        type: "ice",
+        category: "special",
+        pp: 5,
+        power: 140,
+        accuracy: 90,
+        effect: "may induce burn"
+    },
+        iceFang : {
+        name: "ice fang",
+        type: "ice",
+        category: "physical",
+        pp: 15,
+        power: 65,
+        accuracy: 95,
+        effect: "may freeze or flinch opponent"
+    },
+        iceHammer : {
+        name: "ice hammer",
+        type: "ice",
+        category: "physical",
+        pp: 10,
+        power: 100,
+        accuracy: 90,
+        effect: "lowers user's speed"
+    },
+        icePunch : {
+        name: "ice punch",
+        type: "ice",
+        category: "physical",
+        pp: 15,
+        power: 75,
+        accuracy: 100,
+        effect: "may induce freeze"
+    },
+        iceShard : {
+        name: "ice shard",
+        type: "ice",
+        category: "physical",
+        pp: 30,
+        power: 40,
+        accuracy: 100,
+        effect: "has increased speed priority"
+    },
+        icicleCrash : {
+        name: "icicle crash",
+        type: "ice",
+        category: "physical",
+        pp: 10,
+        power: 85,
+        accuracy: 90,
+        effect: "may cause flinch"
+    },
+        icicleSpear : {
+        name: "icicle spear",
+        type: "ice",
+        category: "physical",
+        pp: 30,
+        power: 25,
+        accuracy: 100,
+        effect: "attacks 2-5 times"
+    },
+    icyWind: {
+        name: "icy wind",
+        type: "ice",
+        category: "special",
+        pp: 15,
+        power: 55,
+        accuracy: 95,
+        effect: "may lower opponent's speed"
+    },
+    imprison: {
+        name: "imprison",
+        type: "psychic",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "opponent cannot use any move user knows"
+    },
+    incinerate: {
+        name: "incinerate",
+        type: "fire",
+        category: "special",
+        pp: 15,
+        power: 60,
+        accuracy: 100,
+        effect: "removes opponent's held berry"
+    },
+    inferno: {
+        name: "inferno",
+        type: "fire",
+        category: "special",
+        pp: 5,
+        power: 100,
+        accuracy: 50,
+        effect: "may induce burn"
+    },
+    infestation: {
+        name: "infestation",
+        type: "bug",
+        category: "special",
+        pp: 20,
+        power: 20,
+        accuracy: 100,
+        effect: "traps opponent"
+    },
+    ingrain: {
+        name: "ingrain",
+        type: "grass",
+        category: "status",
+        pp: 20,
+        power: 0,
+        accuracy: 0,
+        effect: "recovers user's hp by 1/16th each turn.  prevents user from switching out"
+    },
+    instruct: {
+        name: "instruct",
+        type: "psychic",
+        category: "status",
+        pp: 15,
+        power: 0,
+        accuracy: 0,
+        effect: "causes target to user their last move again"
+    },
+    ionDeluge: {
+        name: "ion deluge",
+        type: "electric",
+        category: "status",
+        pp: 25,
+        power: 0,
+        accuracy: 0,
+        effect: "changes target's normal-type move to electric-type"
+    },
+    ironDefense: {
+        name: "iron defense",
+        type: "steel",
+        category: "status",
+        pp: 15,
+        power: 0,
+        accuracy: 0,
+        effect: "raises user's defense two stages"
+    },
+    ironHead: {
+        name: "iron head",
+        type: "steel",
+        category: "physical",
+        pp: 15,
+        power: 80,
+        accuracy: 100,
+        effect: "may flinch"
+    },
+    ironTail: {
+        name: "iron tail",
+        type: "steel",
+        category: "physical",
+        pp: 15,
+        power: 100,
+        accuracy: 75,
+        effect: "may lower opponent's defense"
+    },
+    judgement: {
+        name: "judgement",
+        type: "normal",
+        category: "special",
+        pp: 10,
+        power: 100,
+        accuracy: 100,
+        effect: "changes type based on held item"
+    },
+    jumpKick: {
+        name: "jump kick",
+        type: "fighting",
+        category: "physical",
+        pp: 10,
+        power: 100,
+        accuracy: 95,
+        effect: "if attack misses, user takes 1/2 max hp of damage"
+    },
+    karateChop: {
+        name: "karate chop",
+        type: "fighting",
+        category: "physical",
+        pp: 25,
+        power: 50,
+        accuracy: 100,
+        effect: "has an increased critical hit ratio"
+    },
+    kinesis: {
+        name: "kinesis",
+        type: "psychic",
+        category: "status",
+        pp: 15,
+        power: 0,
+        accuracy: 80,
+        effect: "lowers opponent's accuracy"
+    },
+    kingsShield: {
+        name: "kings shield",
+        type: "steel",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "protects user.  lowers opponent's attack by two stages if they make physical contact"
+    },
+    knockOff: {
+        name: "knock off",
+        type: "dark",
+        category: "physical",
+        pp: 20,
+        power: 65,
+        accuracy: 100,
+        effect: "knocks down opponent's held item, preventing use"
+    },
+    landsWrath: {
+        name: "land's wrath",
+        type: "ground",
+        category: "physical",
+        pp: 10,
+        power: 90,
+        accuracy: 100,
+        effect: "none"
+    },
+    laserFocus: {
+        name: "laser focus",
+        type: "normal",
+        category: "status",
+        pp: 30,
+        power: 0,
+        accuracy: 0,
+        effect: "the user's next move will be a critical hit"
+    },
+    lastResort: {
+        name: "last result",
+        type: "normal",
+        category: "physical",
+        pp: 5,
+        power: 110,
+        accuracy: 100,
+        effect: "can only be used after user has used all other known moves in current battle"
+    },
+    lavaPlume: {
+        name: "lava plume",
+        type: "fire",
+        category: "special",
+        pp: 15,
+        power: 80,
+        accuracy: 100,
+        effect: "may induce burn"
+    },
+    leafBlade: {
+        name: "leaf blade",
+        type: "grass",
+        category: "physical",
+        pp: 15,
+        power: 90,
+        accuracy: 100,
+        effect: "has increased critical hit ratio"
+    },
+    leafStorm: {
+        name: "leaf storm",
+        type: "grass",
+        category: "special",
+        pp: 5,
+        power: 130,
+        accuracy: 90,
+        effect: "lowers user's special attack two stages"
+    },
+    leafTornado: {
+        name: "leaf tornado",
+        type: "grass",
+        category: "special",
+        pp: 10,
+        power: 65,
+        accuracy: 90,
+        effect: "may lower opponent's accuracy"
+    },
+    leafage: {
+        name: "leafage",
+        type: "grass",
+        category: "physical",
+        pp: 40,
+        power: 40,
+        accuracy: 100,
+        effect: "none"
+    },
+    leechLife: {
+        name: "leech life",
+        type: "bug",
+        category: "physical",
+        pp: 10,
+        power: 80,
+        accuracy: 100,
+        effect: "user recovers half the damage inflicted"
+    },
+    leechSeed: {
+        name: "leech seed",
+        type: "grass",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 90,
+        effect: "user teals hp from opponent every turn"
+    },
+    leer: {
+        name: "leer",
+        type: "normal",
+        category: "status",
+        pp: 30,
+        power: 0,
+        accuracy: 100,
+        effect: "lowers opponent's defense"
+    },
+    lick: {
+        name: "lick",
+        type: "ghost",
+        category: "physical",
+        pp: 30,
+        power: 30,
+        accuracy: 100,
+        effect: "may induce paralysis"
+    },
+    lightScreen: {
+        name: "light screen",
+        type: "psychic",
+        category: "status",
+        pp: 30,
+        power: 0,
+        accuracy: 0,
+        effect: "halves special attack damage inflicted on user's side of the field"
+    },
+    lightOfRuin: {
+        name: "light of ruin",
+        type: "fairy",
+        category: "special",
+        pp: 5,
+        power: 140,
+        accuracy: 90,
+        effect: "user receives half the damage inflicted in recoil"
+    },
+    liquidation: {
+        name: "liquidation",
+        type: "water",
+        category: "physical",
+        pp: 10,
+        power: 85,
+        accuracy: 100,
+        effect: "may lower opponent's defense"
+    },
+    lockOn: {
+        name: "lock-on",
+        type: "normal",
+        category: "status",
+        pp: 5,
+        power: 0,
+        accuracy: 0,
+        effect: "endures the user's next move will not fail"
+    },
+    lovelyKiss: {
+        name: "lovely kiss",
+        type: "normal",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 75,
+        effect: "induces sleep"
+    },
+    lowKick: {
+        name: "low kick",
+        type: "fighting",
+        category: "physical",
+        pp: 20,
+        power: 1,
+        accuracy: 100,
+        effect: "damage inflicted raises the heavier the opponent is"
+    },
+    lowSweep: {
+        name: "low sweep",
+        type: "fighting",
+        category: "physical",
+        pp: 20,
+        power: 65,
+        accuracy: 100,
+        effect: "lowers opponent's speed"
+    },
+    luckyChant: {
+        name: "lucky chant",
+        type: "normal",
+        category: "status",
+        pp: 30,
+        power: 0,
+        accuracy: 0,
+        effect: "prevents target from afflecting critical hits for 5 turns"
+    },
+    lunarDance: {
+        name: "lunar dance",
+        type: "psychic",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "causes teh user to faint and completely heals the next pokemon"
+    },
+    lunge: {
+        name: "lunge",
+        type: "bug",
+        category: "physical",
+        pp: 15,
+        power: 80,
+        accuracy: 100,
+        effect: "lowers opponent's attack"
+    },
+    lusterPurge: {
+        name: "luster purge",
+        type: "psychic",
+        category: "special",
+        pp: 5,
+        power: 70,
+        accuracy: 100,
+        effect: "may lower opponent's special defense"
+    },
+    machPunch: {
+        name: "mach punch",
+        type: "fighting",
+        category: "physical",
+        pp: 30,
+        power: 40,
+        accuracy: 100,
+        effect: "has increased speed priority"
+    },
+    magicCoat: {
+        name: "magic coat",
+        type: "psychic",
+        category: "status",
+        pp: 15,
+        power: 0,
+        accuracy: 0,
+        effect: "reflects back status moves"
+    },
+    magicRoom: {
+        name: "magic room",
+        type: "psychic",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "prevents hold item use for five turns"
+    },
+    magicalLeaf: {
+        name: "magical leaf",
+        type: "grass",
+        category: "special",
+        pp: 20,
+        power: 60,
+        accuracy: "-",
+        effect: "cannot miss"
+    },
+    magmaStorm: {
+        name: "magma storm",
+        type: "fire",
+        category: "special",
+        pp: 5,
+        power: 100,
+        accuracy: 75,
+        effect: "traps opponent"
+    },
+    magnetBomb: {
+        name: "magnet bomb",
+        type: "steel",
+        category: "physical",
+        pp: 20,
+        power: 60,
+        accuracy: "-",
+        effect: "cannot miss"
+    },
+    magnetRise: {
+        name: "magnet rise",
+        type: "electric",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "gives user ground type immunity for 5 turns"
+    },
+    magneticFlux: {
+        name: "magnetic flux",
+        type: "electric",
+        category: "status",
+        pp: 20,
+        power: 0,
+        accuracy: 0,
+        effect: "raises defense and special defense of ally pokemon with the plus or minus ability"
+    },
+    magnitude: {
+        name: "magnitude",
+        type: "ground",
+        category: "physical",
+        pp: 30,
+        power: 1,
+        accuracy: 100,
+        effect: "move power is random"
+    },
+    matBlock: {
+        name: "mat block",
+        type: "fighting",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "protects user and allies from damage if move is used in first turn the user has been out"
+    },
+    meFirst: {
+        name: "me first",
+        type: "normal",
+        category: "status",
+        pp: 20,
+        power: 0,
+        accuracy: 0,
+        effect: "uses the target's move before the target pokemon"
+    },
+    meanLook: {
+        name: "mean look",
+        type: "normal",
+        category: "status",
+        pp: 5,
+        power: 0,
+        accuracy: 0,
+        effect: "prevents the opponent from escaping"
+    },
+    meditate: {
+        name: "meditate",
+        type: "psychic",
+        category: "status",
+        pp: 40,
+        power: 0,
+        accuracy: 0,
+        effect: "raises user's attack"
+    },
+    megaDrain: {
+        name: "mega drain",
+        type: "grass",
+        category: "special",
+        pp: 15,
+        power: 40,
+        accuracy: 100,
+        effect: "user recovers half the damage inflicted"
+    },
+    megaKick: {
+        name: "mega kick",
+        type: "normal",
+        category: "physical",
+        pp: 5,
+        power: 120,
+        accuracy: 75,
+        effect: "none"
+    },
+    megaPunch: {
+        name: "mega punch",
+        type: "normal",
+        category: "physical",
+        pp: 20,
+        power: 80,
+        accuracy: 85,
+        effect: "none"
+    },
+    megahorn: {
+        name: "megahorn",
+        type: "bug",
+        category: "physical",
+        pp: 10,
+        power: 120,
+        accuracy: 85,
+        effect: "none"
+    },
+    memento: {
+        name: "memento",
+        type: "dark",
+        category: "status",
+        pp: 10,
+        power:0,
+        accuracy: 100,
+        effect: "lowers opponent's attack and special attack two stages, and user faints"
+    },
+    metalBurst: {
+        name: "metal burst",
+        type: "steel",
+        category: "physical",
+        pp: 10,
+        power: 1,
+        accuracy: 100,
+        effect: "damages the last pokemon to hit the user with 150% of the damage inflicted on the user"
+    },
+    metalClaw: {
+        name: "metal claw",
+        type: "steel",
+        category: "physical",
+        pp: 35,
+        power: 50,
+        accuracy: 95,
+        effect: "may raise user's attack one stage"
+    },
+    metalSound: {
+        name: "metal sound",
+        type: "steel",
+        category: "status",
+        pp: 40,
+        power: 0,
+        accuracy: 85,
+        effect: "lowers opponent's special defense two stages"
+    },
+    meteorMash: {
+        name: "meteor mash",
+        type: "steel",
+        category: "physical",
+        pp: 10,
+        power: 90,
+        accuracy: 90,
+        effect: "may raise user's attack"
+    },
+    metronome: {
+        name: "metronome",
+        type: "normal",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "uses a random move"
+    },
+    milkDrink: {
+        name: "milk drink",
+        type: "normal",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "user recovers half the maximum hp"
+    },
+    mimic: {
+        name: "mimic",
+        type: "normal",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "copies opponent's last move"
+    },
+    mindBlown: {
+        name: "mind blown",
+        type: "fire",
+        category: "special",
+        pp: 5,
+        power: 150,
+        accuracy: 100,
+        effect: "user loses half of their maximum hp"
+    },
+    mindReader: {
+        name: "mind reader",
+        type: "normal",
+        category: "status",
+        pp: 5,
+        power: 0,
+        accuracy: 0,
+        effect: "ensures the user's next move will not fail"
+    },
+    minimize: {
+        name: "minimize",
+        type: "normal",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "raises user's evasion two stages"
+    },
+    miracleEye: {
+        name: "miracle eye",
+        type: "psychic",
+        category: "status",
+        pp: 40,
+        power: 0,
+        accuracy: 0,
+        effect: "removes psychic type immunity to dark type, and removes evasion boosts on the target during the next turn"
+    },
+    mirrorCoat: {
+        name: "mirror coat",
+        type: "psychic",
+        category: "special",
+        pp: 20,
+        power: 1,
+        accuracy: 100,
+        effect: "counters the foe's special attack at double the power"
+    },
+    mirrorMove: {
+        name: "mirror move",
+        type: "flying",
+        category: "status",
+        pp: 20,
+        power: 0,
+        accuracy: 0,
+        effect: "user does the last move used by the opponent"
+    },
+    mirrorShot: {
+        name: "mirror shot",
+        type: "steel",
+        category: "special",
+        pp: 10,
+        power: 65,
+        accuracy: 85,
+        effect: "may lower opponent's accuracy"
+    },
+    mist: {
+        name: "mist",
+        type: "ice",
+        category: "status",
+        pp: 30,
+        power: 0,
+        accuracy: 0,
+        effect: "stops stat reduction"
+    },
+    mistBall: {
+        name: "mist ball",
+        type: "fairy",
+        category: "special",
+        pp: 5,
+        power: 70,
+        accuracy: 100,
+        effect: "may lower opponent's special defense"
+    },
+    mistyTerrain: {
+        name: "misty terrain",
+        type: "fairy",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "activates misty terrain for 5 turns"
+    },
+    moonblast: {
+        name: "moonblast",
+        type: "fairy",
+        category: "special",
+        pp: 15,
+        power: 95,
+        accuracy: 100,
+        effect: "may lower opponent's special attack"
+    },
+    moongeistBeam: {
+        name: "moongeist beam",
+        type: "ghost",
+        category: "special",
+        pp: 5,
+        power: 100,
+        accuracy: 100,
+        effect: "ignores abilities"
+    },
+    moonlight: {
+        name: "moonlight",
+        type: "fairy",
+        category: "status ",
+        pp: 5,
+        power: 0,
+        accuracy: 0,
+        effect: "user restores HP"
+    },
+    morningSun: {
+        name: "morning sun",
+        type: "normal",
+        category: "status",
+        pp: 5,
+        power: 0,
+        accuracy: 0,
+        effect: "user restores hp"
+    },
+    mudBomb: {
+        name: "mud bomb",
+        type: "ground",
+        category: "special",
+        pp: 10,
+        power: 65,
+        accuracy: 85,
+        effect: "may lower opponent's accuracy"
+    },
+    mudShot: {
+        name: "mud shot",
+        type: "ground",
+        category: "special",
+        pp: 15,
+        power: 55,
+        accuracy: 95,
+        effect: "may lower opponent's speed"
+    },
+    mudSport: {
+        name: "mud sport",
+        type: "ground",
+        category: "status",
+        pp: 15,
+        power: 0,
+        accuracy: 0,
+        effect: "lowers the power of electric type moves on this pokemon"
+    },
+    mudSlap: {
+        name: "mud-slap",
+        type: "ground",
+        category: "special",
+        pp: 10,
+        power: 20,
+        accuracy: 100,
+        effect: "may lower opponent's accuracy"
+    },
+    muddyWater: {
+        name: "muddy water",
+        type: "water",
+        category: "special",
+        pp: 10,
+        power: 90,
+        accuracy: 85,
+        effect: "may lower opponent's accuracy"
+    },
+    multiAttack: {
+        name: "multi-attack",
+        type: "normal",
+        category: "physical",
+        pp: 10,
+        power: 90,
+        accuracy: 100,
+        effect: "changes the type of the move based upon the held item"
+    },
+    mysticalFire: {
+        name: "mystical fire",
+        type: "fire",
+        category: "special",
+        pp: 10,
+        power: 75,
+        accuracy: 100,
+        effect: "may lower opponent's special attack"
+    },
+    nastyPlot: {
+        name: "nasty plot",
+        type: "dark",
+        category: "status",
+        pp: 20,
+        power: 0,
+        accuracy: 0,
+        effect: "raises user's special attack two stages"
+    },
+    naturalGift: {
+        name: "natural gift",
+        type: "normal",
+        category: "physical",
+        pp: 15,
+        power: 1,
+        accuracy: 100,
+        effect: "changes type and power based on held item"
+    },
+    naturePower: {
+        name: "nature power",
+        type: "normal",
+        category: "status",
+        pp: 20,
+        power: 0,
+        accuracy: 0,
+        effect: "attack changes based on field"
+    },
+    naturesMadness: {
+        name: "nature's madness",
+        type: "fairy",
+        category: "special",
+        pp: 10,
+        power: 1,
+        accuracy: 90,
+        effect: "cuts the opponent's hp by half of its current value"
+    },
+    needleArm: {
+        name: "needle arm",
+        type: "grass",
+        category: "physical",
+        pp: 15,
+        power: 60,
+        accuracy: 100,
+        effect: "may cause flinch"
+    },
+    nightDaze: {
+        name: "night daze",
+        type: "dark",
+        category: "special",
+        pp: 10,
+        power: 85,
+        accuracy: 95,
+        effect: "may lower opponent's accuracy"
+    },
+    nightShade: {
+        name: "night shade",
+        type: "ghost",
+        category: "special",
+        pp: 15,
+        power: 1,
+        accuracy: 100,
+        effect: "inflicts damage equal to user's level"
+    },
+    nightSlash: {
+        name: "night slash",
+        type: "dark",
+        category: "physical",
+        pp: 15,
+        power: 70,
+        accuracy: 100,
+        effect: "has an increased critical hit ratio"
+    },
+    nightmare: {
+        name: "nightmare",
+        type: "ghost",
+        category: "status",
+        pp: 15,
+        power: 0,
+        accuracy: 100,
+        effect: "inflicts 1/4 max hp damage on a sleeping foe every turn"
+    },
+    nobleRoar: {
+        name: "noble roar",
+        type: "normal",
+        category: "status",
+        pp: 30,
+        power: 0,
+        accuracy: 100,
+        effect: "lowers target's attack and special attack"
+    },
+    nuzzle: {
+        name: "nuzzle",
+        type: "electric",
+        category: "physical",
+        pp: 20,
+        power: 20,
+        accuracy: 100,
+        effect: "inflics paralysis"
+    },
+    oblivionWing: {
+        name: "oblivion wing",
+        type: "flying",
+        category: "special",
+        pp: 10,
+        power: 80,
+        accuracy: 100,
+        effect: "user recovers 75% the damage inflicted"
+    },
+    octazooka: {
+        name: "octazooka",
+        type: "water",
+        category: "special",
+        pp: 10,
+        power: 65,
+        accuracy: 85,
+        effect: "may lower opponent's accuracy"
+    },
+    odorSleuth: {
+        name: "odor sleuth",
+        type: "normal",
+        category: "status",
+        pp: 40,
+        power: 0,
+        accuracy: 0,
+        effect: "allows opponent to be hit if evasion is high, and allows g host type pokemon to be hit by normal type moves"
+    },
+    ominousWind: {
+        name: "ominous wind",
+        type: "ghost",
+        category: "special",
+        pp: 5,
+        power: 60,
+        accuracy: 100,
+        effect: "may raise all user's stats"
+    },
+    originPulse: {
+        name: "origin pulse",
+        type: "water",
+        category: "special",
+        pp: 10,
+        power: 110,
+        accuracy: 85,
+        effect: "none"
+    },
+    outrage: {
+        name: "outrage",
+        type: "dragon",
+        category: "physical",
+        pp: 10,
+        power: 120,
+        accuracy: 100,
+        effect: "user users the same attack for 2-3 turns then becomes confused"
+    },
+    overheat: {
+        name: "overheat",
+        type: "fire",
+        category: "special",
+        pp: 5,
+        power: 130,
+        accuracy: 90,
+        effect: "lowers user's special attack two stages"
+    },
+    painSplit: {
+        name: "pain split",
+        type: "normal",
+        category: "status",
+        pp: 20,
+        power: 0,
+        accuracy: 0,
+        effect: "user and opponent's hp are added up and then shared equally"
+    },
+    parabolicCharge: {
+        name: "parabolic charge",
+        type: "electric",
+        category: "special",
+        pp: 20,
+        power: 65,
+        accuracy: 100,
+        effect: "user recovers half the damage inflicted"
+    },
+    partingShot: {
+        name: "parting shot",
+        type: "dark",
+        category: "status",
+        pp: 20,
+        power: 0,
+        accuracy: 100,
+        effect: "lowers opponent's attack and special attack, and user switches out"
+    },
+    payDay: {
+        name: "pay day",
+        type: "normal",
+        category: "physical",
+        pp: 20,
+        power: 40,
+        accuracy: 100,
+        effect: "user gains money after battle"
+    },
+    payback: {
+        name: "payback",
+        type: "dark",
+        category: "physical",
+        pp: 10,
+        power: 50,
+        accuracy: 100,
+        effect: "doubles damage if user moves after target"
+    },
+    peck: {
+        name: "peck",
+        type: "flying",
+        category: "physical",
+        pp: 35,
+        power: 35,
+        accuracy: 100,
+        effect: "none"
+    },
+    perishSong: {
+        name: "perish song",
+        type: "normal",
+        category: "status",
+        pp: 5,
+        power: 0,
+        accuracy: 0,
+        effect: "all pokemon on the field faint in 3 turns"
+    },
+    petalBlizzard: {
+        name: "petal blizzard",
+        type: "grass",
+        category: "physical",
+        pp: 15,
+        power: 90,
+        accuracy: 100,
+        effect: "none"
+    },
+    petalDance: {
+        name: "petal dance",
+        type: "grass",
+        category: "special",
+        pp: 10,
+        power: 120,
+        accuracy: 100,
+        effect: "user uses the same attack for 2-3 turns then becomes confused"
+    },
+    phantomForce: {
+        name: "phantom force",
+        type: "ghost",
+        category: "physical",
+        pp: 10,
+        power: 90,
+        accuracy: 100,
+        effect: "user is protected the first turn, and attacks on the second turn.  hits through protect"
+    },
+    photonGeyser: {
+        name: "photo geyser",
+        type: "psychic",
+        category: "special",
+        pp: 5,
+        power: 100,
+        accuracy: 100,
+        effect: "damage inflicted depeonds on user's attack and special attack.  highest stat used to determine if move is physical or special.  ignores abilities"
+    },
+    pinMissle: {
+        name: "pin missle",
+        type: "bug",
+        category: "physical",
+        pp: 20,
+        power: 25,
+        accuracy: 95,
+        effect: "attacks 2-5 times in a row"
+    },
+    plasmaFists: {
+        name: "plasma fists",
+        type: "electric",
+        category: "physical",
+        pp: 15,
+        power: 100,
+        accuracy: 100,
+        effect: "changes target's normal type move to electric type"
+    },
+    playNice: {
+        name: "play nice",
+        type: "normal",
+        category: "status",
+        pp: 20,
+        power: 0,
+        accuracy: 0,
+        effect: "lowers target's attack"
+    },
+    playRough: {
+        name: "play rough",
+        type: "fairy",
+        category: "physical",
+        pp: 10,
+        power: 90,
+        accuracy: 90,
+        effect: "may lower opponent's attack"
+    },
+    pluck: {
+        name: "pluck",
+        type: "flying",
+        category: "physical",
+        pp: 20,
+        power: 60,
+        accuracy: 100,
+        effect: "removes target's berry and users its effect"
+    },
+    poisonFang: {
+        name: "poison fang",
+        type: "poison",
+        category: "physical",
+        pp: 15,
+        power: 50,
+        accuracy: 100,
+        effect: "may induce severe poison"
+    },
+    poisonGas: {
+        name: "poison gas",
+        type: "poison",
+        category: "status",
+        pp: 40,
+        power: 0,
+        accuracy: 90,
+        effect: "induces poison"
+    },
+    poisonJab: {
+        name: "poison jab",
+        type: "poison",
+        category: "physical",
+        pp: 20,
+        power: 80,
+        accuracy: 100,
+        effect: "may induce poison"
+    },
+    poisonPowder: {
+        name: "poison powder",
+        type: "poison",
+        category: "status",
+        pp: 35,
+        power: 0,
+        accuracy: 75,
+        effect: "induces poison"
+    },
+    poisonSting: {
+        name: "poison sting",
+        type: "poison",
+        category: "physical",
+        pp: 35,
+        power: 15,
+        accuracy: 100,
+        effect: "may induce poison"
+    },
+    poisonTail: {
+        name: "poison tail",
+        type: "poison",
+        category: "physical",
+        pp: 25,
+        power: 50,
+        accuracy: 100,
+        effect: "has high critical hit ratio.  may induce poison"
+    },
+    pollenPuff: {
+        name: "pollen puff",
+        type: "bug",
+        category: "special",
+        pp: 15,
+        power: 90,
+        accuracy: 100,
+        effect: "heals if used on ally"
+    },
+    pound: {
+        name: "pound",
+        type: "normal",
+        category: "physical",
+        pp: 35,
+        power: 40,
+        accuracy: 100,
+        effect: "none"
+    },
+    powder: {
+        name: "powder",
+        type: "bug",
+        category: "status",
+        pp: 20,
+        power: 0,
+        accuracy: 100,
+        effect: "damages pokemon by 25 of max hp if they use a fire type move in the turn hit b y this attack"
+    },
+    powderSnow: {
+        name: "powder snow",
+        type: "ice",
+        category: "special",
+        pp: 25,
+        power: 40,
+        accuracy: 100,
+        effect: "may induce freeze"
+    },
+    powerGem: {
+        name: "power gem",
+        type: "rock",
+        category: "special",
+        pp: 20,
+        power: 80,
+        accuracy: 100,
+        effect: "none"
+    },
+    powerSplit: {
+        name: "power split",
+        type: "psychic",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "averages attack and special attack with target"
+    },
+    powerSwap: {
+        name: "power swap",
+        type: "psychic",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "switches user's attack and special attack increases with opponent"
+    },
+    powerTrick: {
+        name: "power trick",
+        type: "psychic",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "switches user's attack and defense"
+    },
+    powerTrip: {
+        name: "power trip",
+        type: "dark",
+        category: "physical",
+        pp: 10,
+        power: 20,
+        accuracy: 100,
+        effect: "increases damage by 100% for each a stat has been increased by user"
+    },
+    powerWhip: {
+        name: "power whip",
+        type: "grass",
+        category: "physical",
+        pp: 10,
+        power: 120,
+        accuracy: 85,
+        effect: "none"
+    },
+    powerUpPunch: {
+        name: "power-up punch",
+        type: "fighting",
+        category: "physical",
+        pp: 20,
+        power: 40,
+        accuracy: 100,
+        effect: "raises user's attack"
+    },
+    precipiceBlades: {
+        name: "precipice blades",
+        type: "ground",
+        category: "physical",
+        pp: 10,
+        power: 120,
+        accuracy: 85,
+        effect: "none"
+    },
+    present: {
+        name: "present",
+        type: "normal",
+        category: "physical",
+        pp: 15,
+        power: 1,
+        accuracy: 90,
+        effect: "may hit or heal the user or opponent"
+    },
+    prismaticLaser: {
+        name: "prismatic laser",
+        type: "psychic",
+        category: "special",
+        pp: 10,
+        power: 160,
+        accuracy: 100,
+        effect: "user cannot attack next turn"
+    },
+    protect: {
+        name: "protect",
+        type: "normal",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "prevents being hit by the opponent's attack.  may fail on successive uses"
+    },
+    psybeam: {
+        name: "psybeam",
+        type: "psychic",
+        category: "special",
+        pp: 20,
+        power: 65,
+        accuracy: 100,
+        effect: "may induce confusion"
+    },
+    psychUp: {
+        name: "psych up",
+        type: "normal",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "copies opponent's stat changes"
+    },
+    psychic: {
+        name: "psychic",
+        type: "psychic",
+        category: "special",
+        pp: 10,
+        power: 90,
+        accuracy: 100,
+        effect: "may lower opponent's special defense"
+    },
+    psychicFangs: {
+        name: "psychic fangs",
+        type: "psychic",
+        category: "physical",
+        pp: 10,
+        power: 85,
+        accuracy: 100,
+        effect: "destroys protective barriers"
+    },
+    psychicTerrain: {
+        name: "psychic terrain",
+        type: "psychic",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "activates psychic terrain"
+    },
+    psychoBoost: {
+        name: "psycho boost",
+        type: "psychic",
+        category: "special",
+        pp: 5,
+        power: 140,
+        accuracy: 90,
+        effect: "lowers user's special attack two stages"
+    },
+    psychoCut: {
+        name: "psycho cut",
+        type: "psychic",
+        category: "physical",
+        pp: 20,
+        power: 70,
+        accuracy: 100,
+        effect: "increased critical hit ratio"
+    },
+    psychoShift: {
+        name: "psycho shift",
+        type: "psychic",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 100,
+        effect: "gives the target its status condition"
+    },
+    psyshock: {
+        name: "psyshock",
+        type: "psyshock",
+        category: "special",
+        pp: 10,
+        power: 80,
+        accuracy: 100,
+        effect: "inflicts physical damage"
+    },
+    psystrike: {
+        name: "psystrike",
+        type: "psychic",
+        category: "special",
+        pp: 10,
+        power: 100,
+        accuracy: 100,
+        effect: "inflicts physical damage"
+    },
+    psywave: {
+        name: "psywave",
+        type: "psychic",
+        category: "special",
+        pp: 15,
+        power: 1,
+        accuracy: 100,
+        effect: "inflicts damage equal to 0.5 to 1.5 x user's level"
+    },
+    punishment: {
+        name: "punishment",
+        type: "dark",
+        category: "physical",
+        pp: 5,
+        power: 1,
+        accuracy: 100,
+        effect: "increases damage inflicted based on the opponent's stat boosts"
+    },
+    purify: {
+        name: "purify",
+        type: "poison",
+        category: "status",
+        pp: 20,
+        power: 0,
+        accuracy: 0,
+        effect: "heals target's status condition; heals user by 25% of max hp"
+    },
+    pursuit: {
+        name: "pursuit",
+        type: "dark",
+        category: "physical",
+        pp: 20,
+        power: 40,
+        accuracy: 100,
+        effect: "inflicts double damage if the opponent is switching out"
+    },
+    quash: {
+        name: "quash",
+        type: "dark",
+        category: "status",
+        pp: 15,
+        power: 0,
+        accuracy: 100,
+        effect: "target pokemon moves last in the turn"
+    },
+    quickAttack: {
+        name: "quick attack",
+        type: "normal",
+        category: "physical",
+        pp: 30,
+        power: 40,
+        accuracy: 100,
+        effect: "has increased speed priority"
+    },
+    quickGuard: {
+        name: "quick guard",
+        type: "fighting",
+        category: "status",
+        pp: 15,
+        power: 0,
+        accuracy: 0,
+        effect: "protects ally pokemon from moves with increased speed priority"
+    },
+    quiverDance: {
+        name: "quiver dance",
+        type: "bug",
+        category: "status",
+        pp: 20,
+        power: 0,
+        accuracy: 0,
+        effect: "raises user's special attack, special defense, and speed"
+    },
+    rage: {
+        name: "rage",
+        type: "normal",
+        category: "physical",
+        pp: 20,
+        power: 20,
+        accuracy: 100,
+        effect: "users attack raises if hit"
+    },
+    ragePowder: {
+        name: "rage powder",
+        type: "bug",
+        category: "status",
+        pp: 20,
+        power: 0,
+        accuracy: 0,
+        effect: "draws attacks towards the user rather than ally"
+    },
+    rainDance: {
+        name: "rain dance",
+        type: "water",
+        category: "status",
+        pp: 5,
+        power: 0,
+        accuracy: 0,
+        effect: "causes rain for 5 turns"
+    },
+    rapidSpin: {
+        name: "rapid spin",
+        type: "normal",
+        category: "physical",
+        pp: 40,
+        power: 20,
+        accuracy: 100,
+        effect: "user removes entry hazardss and trapping moves"
+    },
+    razorLeaf: {
+        name: "razor leaf",
+        type: "grass",
+        category: "physical",
+        pp: 25,
+        power: 55,
+        accuracy: 95,
+        effect: "has an increased critical hit ratio"
+    },
+    razorShell: {
+        name: "razor shell",
+        type: "water",
+        category: "physical",
+        pp: 10,
+        power: 75,
+        accuracy: 95,
+        effect: "may lower opponent's defense"
+    },
+    razorWind: {
+        name: "razor wind",
+        type: "normal",
+        category: "special",
+        pp: 10,
+        power: 80,
+        accuracy: 100,
+        effect: "has an increased critical hit ratio; two turn attack"
+    },
+    recover: {
+        name: "recover",
+        type: "normal",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "user recovers half the max hp"
+    },
+    recycle: {
+        name: "recycle",
+        type: "normal",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "recycles an already used held item"
+    },
+    reflect: {
+        name: "reflect",
+        type: "psychic",
+        category: "status",
+        pp: 20,
+        power: 0,
+        accuracy: 0,
+        effect: "halves attack damage inflicted on the user's side of the field"
+    },
+    reflectType: {
+        name: "reflect type",
+        type: "normal",
+        category: "status",
+        pp: 15,
+        power: 0,
+        accuracy: 0,
+        effect: "makes opponent's type match user"
+    },
+    refresh: {
+        name: "refresh",
+        type: "normal",
+        category: "status",
+        pp: 20,
+        power: 0,
+        accuracy: 0,
+        effect: "heals poison, paralysis, or burn"
+    },
+    relicSong: {
+        name: "relic song",
+        type: "normal",
+        category: "special",
+        pp: 10,
+        power: 75,
+        accuracy: 100,
+        effect: "may induce sleep; changes meloetta's form"
+    },
+    rest: {
+        name: "rest",
+        type: "psychic",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "user restores health, then sleeps"
+    },
+    retaliate: {
+        name: "retaliate",
+        type: "normal",
+        category: "physical",
+        pp: 5,
+        power: 70,
+        accuracy: 100,
+        effect: "if a team-mate has ben knocked out in the turn before this pokemon moves, the power is increasd by 100%"
+    }, 
+    move_return: {
+        name: "return",
+        type: "normal",
+        category: "physical",
+        pp: 20,
+        power: 1,
+        accuracy: 100,
+        effect: "the happier the user, the stronger the attack"
+    },
+    revelationDance: {
+        name: "revelation dance",
+        type: "normal",
+        category: "special",
+        pp: 15,
+        power: 90,
+        accuracy: 100,
+        effect: "type varies based on form"
+    },
+    revenge: {
+        name: "revenge",
+        type: "fighting",
+        category: "physical",
+        pp: 10,
+        power: 60,
+        accuracy: 100,
+        effect: "power doubles if user was hit before using the attack"
+    },
+    roar: {
+        name: "roar",
+        type: "normal",
+        category: "status",
+        pp: 20,
+        power: 0,
+        accuracy: 0,
+        effect: "ends wild battles, or forces opponent to randomly switch pokemon in trainer battles"
+    },
+    roarOfTime: {
+        name: "roar of time",
+        type: "dragon",
+        category: "special",
+        pp: 5,
+        power: 150,
+        accuracy: 90,
+        effect: "user cannot attack on the next turn"
+    },
+    rockBlast: {
+        name: "rock blast",
+        type: "rock",
+        category: "physical",
+        pp: 10,
+        power: 25,
+        accuracy: 90,
+        effect: "attacks 2-5 times in a row"
+    },
+    rockClimb: {
+        name: "rock climb",
+        type: "normal",
+        category: "physical",
+        pp: 20,
+        power: 90,
+        accuracy: 85,
+        effect: "may induce confusion"
+    },
+    rockPolish: {
+        name: "rock polish",
+        type: "rock",
+        category: "status",
+        pp: 20,
+        power: 0,
+        accuracy: 0,
+        effect: "raises user's speed two stages"
+    },
+    rockSlide: {
+        name: "rock slide",
+        type: "rock",
+        category: "physical",
+        pp: 10,
+        power: 75,
+        accuracy: 90,
+        effect: "may flinch"
+    },
+    rockSmash: {
+        name: "rock smash",
+        type: "fighting",
+        category: "physical",
+        pp: 15,
+        power: 40,
+        accuracy: 100,
+        effect: "may lower opponent's defense"
+    },
+    rockThrow: {
+        name: "rock throw",
+        type: "rock",
+        category: "physical",
+        pp: 15,
+        power: 50,
+        accuracy: 90,
+        effect: "none"
+    },
+    rockTomb: {
+        name: "rock tomb",
+        type: "rock",
+        category: "physical",
+        pp: 15,
+        power: 60,
+        accuracy: 95,
+        effect: "may lower opponent's speed"
+    },
+    rockWrecker: {
+        name: "rock wrecker",
+        type: "rock",
+        category: "physical",
+        pp: 5,
+        power: 150,
+        accuracy: 90,
+        effect: "user cannot attack next turn"
+    },
+    rolePlay: {
+        name: "role play",
+        type: "psychic",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "copies the target pokemon's ability"
+    },
+    rollingKick: {
+        name: "rolling kick",
+        type: "fighting",
+        category: "physical",
+        pp: 15,
+        power: 60,
+        accuracy:85,
+        effect: "may flinch"
+    },
+    rollout: {
+        name: "rollout",
+        type: "rock",
+        category: "physical",
+        pp: 20,
+        power: 30,
+        accuracy: 90,
+        effect: "uses the same move for 5 turns; move's power raises if it hits"
+    },
+    roost: {
+        name: "roost",
+        type: "flying",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "heals up to 50% of maximum hp; flying type pokemon are no longer flying type for the rest of the turn"
+    },
+    rototiller: {
+        name: "rototiller",
+        type: "ground",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "raises attack and special attack stats of gras type pokemon on the field"
+    },
+    round: {
+        name: "round",
+        type: "normal",
+        category: "special",
+        pp: 15,
+        power: 60,
+        accuracy: 100,
+        effect: "increases power if other pokemon used round this turn"
+    },
+    sacredFire: {
+        name: "sacred fire",
+        type: "fire",
+        category: "physical",
+        pp: 5,
+        power: 100,
+        accuracy: 95,
+        effect: "may induce burn"
+    },
+    sacredSword: {
+        name: "sacred sword",
+        type: "fighting",
+        category: "physical",
+        pp: 15,
+        power: 90,
+        accuracy: 100,
+        effect: "ignores stat changes"
+    },
+    safeguard: {
+        name: "safeguard",
+        type: "normal",
+        category: "status",
+        pp: 25,
+        power: 0,
+        accuracy: 0,
+        effect: "prevents all status conditions for five turns"
+    },
+    sandAttack: {
+        name: "sand attack",
+        type: "ground",
+        category: "status",
+        pp: 15,
+        power: 0,
+        accuracy: 100,
+        effect: "lowers opponent's accuracy"
+    },
+    sandTomb: {
+        name: "sand tomb",
+        type: "ground",
+        category: "physical",
+        pp: 15,
+        power: 35,
+        accuracy: 85,
+        effect: "traps opponent"
+    },
+    sandstorm: {
+        name: "sandstorm",
+        type: "rock",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "causes a sandstorm for 5 turns"
+    },
+    scald: {
+        name: "scald",
+        type: "water",
+        category: "special",
+        pp: 15,
+        power: 80,
+        accuracy: 100,
+        effect: "may induce burn"
+    },
+    scaryFace: {
+        name: "scary face",
+        type: "normal",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 100,
+        effect: "lowers opponent's speed two stages"
+    },
+    scratch: {
+        name: "scratch",
+        type: "normal",
+        category: "physical",
+        pp: 35,
+        power: 40,
+        accuracy: 100,
+        effect: "none"
+    },
+    screech: {
+        name: "screech",
+        type: "normal",
+        category: "status",
+        pp: 40,
+        power: 0,
+        accuracy: 85,
+        effect: "lowers opponent's defense two stages"
+    },
+    searingShot: {
+        name: "searing shot",
+        type: "fire",
+        category: "special",
+        pp: 5,
+        power: 100,
+        accuracy: 100,
+        effect: "may induce burn"
+    },
+    secretPower: {
+        name: "secret power",
+        type: "normal",
+        category: "physical",
+        pp: 20,
+        power: 70,
+        accuracy: 100,
+        effect: "afflicts a status condition based on the field"
+    },
+    secretSword: {
+        name: "secret sword",
+        type: "fighting",
+        category: "special",
+        pp: 10,
+        power: 85,
+        accuracy: 100,
+        effect: "inflicts physical damage"
+    },
+    seedBomb: {
+        name: "seed bomb",
+        type: "grass",
+        category: "physical",
+        pp: 15,
+        power: 80,
+        accuracy: 100,
+        effect: "none"
+    },
+    seedFlare: {
+        name: "seed flare",
+        type: "grass",
+        category: "special",
+        pp: 5,
+        power: 120,
+        accuracy: 85,
+        effect: "lowers opponent's special defense two stages"
+    },
+    seismicToss: {
+        name: "seismic toss",
+        type: "fighting ",
+        category: "physical",
+        pp: 20,
+        power: 1,
+        accuracy: 100,
+        effect: "inflicts damage equal to the user's level"
+    },
+    selfDestruct: {
+        name: "self-destruct",
+        type: "normal",
+        category: "physical",
+        pp: 5,
+        power: 200,
+        accuracy: 100,
+        effect: "user faints"
+    },
+    shadowBall: {
+        name: "shadow ball",
+        type: "ghost",
+        category: "special",
+        pp: 15,
+        power: 80,
+        accuracy: 100,
+        effect: "may lower opponent's special defense"
+    },
+    shadowBone: {
+        name: "shadow bone",
+        type: "ghost",
+        category: "physical",
+        pp: 10,
+        power: 85,
+        accuracy: 100,
+        effect: "may lower opponent's defense"
+    },
+    shadowClaw: {
+        name: "shadow claw",
+        type: "ghost",
+        category: "physical",
+        pp: 15,
+        power: 70,
+        accuracy: 100,
+        effect: "has an increased critical hit ratio"
+    },
+    shadowForce: {
+        name: "shadow force",
+        type: "ghost",
+        category: "physical",
+        pp: 5,
+        power: 120,
+        accuracy: 100,
+        effect: "the user is protected the first turn, attacks the second turn; hits through protect"
+    },
+    shadowPunch: {
+        name: "shadow punch",
+        type: "ghost",
+        category: "physical",
+        pp: 20,
+        power: 60,
+        accuracy: "-",
+        effect: "cannot miss"
+    },
+    shadowSneak: {
+        name: "shadow sneak",
+        type: "ghost",
+        category: "physical",
+        pp: 30,
+        power: 40,
+        accuracy: 100,
+        effect: "has increased speed priority"
+    },
+    sharpen: {
+        name: "sharpen",
+        type: "normal",
+        category: "status",
+        pp: 30,
+        power: 0,
+        accuracy: 0,
+        effect: "raises user's attack"
+    },
+    sheerCold: {
+        name: "sheer cold",
+        type: "ice",
+        category: "special",
+        pp: 5,
+        power: 1,
+        accuracy: 30,
+        effect: "may cause one hit KO"
+    },
+    shellSmash: {
+        name: "shell smash",
+        type: "normal",
+        category: "status",
+        pp: 15,
+        power: 0,
+        accuracy: 0,
+        effect: "lowers user's defense and special defense, and increases attack, special attack, and speed"
+    },
+    shellTrap: {
+        name: "shell trap",
+        type: "fire",
+        category: "special",
+        pp: 5,
+        power: 150,
+        accuracy: 100,
+        effect: "if user is hit by a physical attack after using this room, damage is inflicted"
+    },
+    shiftGear: {
+        name: "shift gear",
+        type: "steel",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "raises user's attack, and raises user's speed two stages"
+    },
+    shockWave: {
+        name: "shock wave",
+        type: "electric",
+        category: "special",
+        pp: 20,
+        power: 60,
+        accuracy: "-",
+        effect: "cannot miss"
+    },
+    shoreUp: {
+        name: "shore up",
+        type: "ground",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "heals up to 50% of maximum hp, heals 66.6% in sandstorm"
+    },
+    signalBeam: {
+        name: "signal beam",
+        type: "bug",
+        category: "special",
+        pp: 15,
+        power: 75,
+        accuracy: 100,
+        effect: "may induce confusion"
+    },
+    silverWind: {
+        name: "silver wind",
+        type: "bug",
+        category: "special",
+        pp: 5,
+        power: 60,
+        accuracy: 100,
+        effect: "may raise all user's stats"
+    },
+    simpleBeam: {
+        name: "simple beam",
+        type: "normal",
+        category: "status",
+        pp: 15,
+        power: 0,
+        accuracy: 100,
+        effect: "changes target's ability to simple"
+    },
+    sing: {
+        name: "sing",
+        type: "normal",
+        category: "status",
+        pp: 15,
+        power: 0,
+        accuracy: 55,
+        effect: "induces sleep"
+    },
+    sketch: {
+        name: "sketch",
+        type: "normal",
+        category: "status",
+        pp: 1,
+        power: 0,
+        accuracy: 100,
+        effect: "copies the opponent's last move forever"
+    },
+    skillSwap: {
+        name: "skill swap",
+        type: "psychic",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "user and target trade abilities"
+    },
+    skullBash: {
+        name: "skull bash",
+        type: "normal",
+        category: "physical",
+        pp: 10,
+        power: 130,
+        accuracy: 100,
+        effect: "raises user's defense on first turn, and attacks on the next turn"
+    },
+    skyAttack: {
+        name: "sky attack",
+        type: "flying",
+        category: "physical",
+        pp: 5,
+        power: 140,
+        accuracy: 90,
+        effect: "may cause opponent to flinch"
+    },
+    skyDrop: {
+        name: "sky drop",
+        type: "flying",
+        category: "physical",
+        pp: 10,
+        power: 60,
+        accuracy: 100,
+        effect: "rises to the sky and prevents the target pokemon from using a move in the next turn"
+    },
+    skyUppercut: {
+        name: "sky uppercut",
+        type: "fighting",
+        category: "physical",
+        pp: 15,
+        power: 85,
+        accuracy: 90,
+        effect: "hits opponents using fly"
+    },
+    slackOff: {
+        name: "slack off",
+        type: "normal",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "user recovers half the maximum hp"
+    },
+    slam: {
+        name: "slam",
+        type: "normal",
+        category: "physical",
+        pp: 20,
+        power: 80,
+        accuracy: 75,
+        effect: "none"
+    },
+    slash: {
+        name: "slash",
+        type: "normal",
+        category: "physical",
+        pp: 20,
+        power: 70,
+        accuracy: 100,
+        effect: "has an increased critical hit ratio"
+    },
+    sleepPowder: {
+        name: "sleep powder",
+        type: "grass",
+        category: "status",
+        pp: 15,
+        power: 0,
+        accuracy: 75,
+        effect: "induces sleep"
+    },
+    sleepTalk: {
+        name: "sleep talk",
+        type: "normal",
+        category: "status",
+        pp: 10,
+        power: 0,
+        accuracy: 0,
+        effect: "uses an own random move while asleep"
+    },
+    
+};
+
+
+
+//WARNING: return is named move_return due to js weirdness
