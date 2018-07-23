@@ -2,6 +2,7 @@ import React from 'react';
 //eslint-disable-next-line
 import ListME from './listME'; 
 //eslint-disable-next-line
+import MoveSection from './moveSection.js';
 
 //eslint-disable-next-line
 import MegaEvolutionDB from './megaEvolution.js';
