@@ -1134,46 +1134,82 @@ let PokemonDB = [{
     {
         id: 142,
         name: "aerodactyl",
-        levelMoves: [MoveDB.MoveDB.ironHead, MoveDB.iceFang, MoveDB.fireFang, MoveDB.thunderFang, MoveDB.wingAttack, MoveDB.supersonic, MoveDB.bite, MoveDB.scaryFace, MoveDB.roar, MoveDB.agility, MoveDB.ancientPower, MoveDB.crunch, MoveDB.takeDown, MoveDB.skyDrop, MoveDB.ironHead, MoveDB.hyperBeam, MoveDB.rockSlide, MoveDB.gigaImpact],
+        levelMoves: [MoveDB.ironHead, MoveDB.iceFang, MoveDB.fireFang, MoveDB.thunderFang, MoveDB.wingAttack, MoveDB.supersonic, MoveDB.bite, MoveDB.scaryFace, MoveDB.roar, MoveDB.agility, MoveDB.ancientPower, MoveDB.crunch, MoveDB.takeDown, MoveDB.skyDrop, MoveDB.ironHead, MoveDB.hyperBeam, MoveDB.rockSlide, MoveDB.gigaImpact],
         tmMoves: [MoveDB.dragonClaw, MoveDB.roar, MoveDB.toxic, MoveDB.hiddenPower, MoveDB.sunnyDayvtaunt, MoveDB.hyperBeam, MoveDB.protect, MoveDB.rainDance, MoveDB.roost, MoveDB.frustration, MoveDB.smackDown, MoveDB.earthquake, MoveDB.return, MoveDB.doubleTeam, MoveDB.flamethrower, MoveDB.sandstorm, MoveDB.fireBlast, MoveDB.rockTomb, MoveDB.aerialAce, MoveDB.torment, MoveDB.facade, MoveDB.rest, MoveDB.attract, MoveDB.thief, MoveDB.round, MoveDB.steelWing, MoveDB.skyDrop, MoveDB.brutalSwing, MoveDB.payback, MoveDB.gigaImpact, MoveDB.rockPolish, MoveDB.stoneEdge, MoveDB.fly, MoveDB.bulldoze, MoveDB.rockSlide, MoveDB.rockSlide, MoveDB.swagger, MoveDB.sleepTalk, MoveDB.substitute, MoveDB.confide],
         eggMoves: [MoveDB.whirlwind, MoveDB.pursuit, MoveDB.foresight, MoveDB.steelWing, MoveDB.dragonBreath, MoveDB.curse, MoveDB.assurance, MoveDB.roost, MoveDB.tailwind, MoveDB.wideGuard],
         tutorMoves: [MoveDB.ironHead, MoveDB.earthPower, MoveDB.aquaTail, MoveDB.dragonPulse, MoveDB.ironTail, MoveDB.snore, MoveDB.heatWave, MoveDB.tailWind, MoveDB.skyAttack, MoveDB.stealthRock, MoveDB.defog, MoveDB.laserFocus]
     },
     {
         id: 143,
-        name: "snorlax"
+        name: "snorlax",
+        levelMoves: [MoveDB.tackle, MoveDB.defenseCurl, MoveDB.amnesia, MoveDB.lick, MoveDB.chipAway, MoveDB.yawn, MoveDB.bodySlam, MoveDB.rest, MoveDB.snore, MoveDB.sleepTalk, MoveDB.gigaImpact, MoveDB.rollout, MoveDB.block, MoveDB.bellyDrum, MoveDB.crunch, MoveDB.heavySlam, MoveDB.highHorsepower],
+        tmMoves: [MoveDB.workUp, MoveDB.toxic, MoveDB.hiddenPower, MoveDB.sunnyDay, MoveDB.iceBeam, MoveDB.blizzard, MoveDB.hyperBeam, MoveDB.protect, MoveDB.rainDance, MoveDB.frustration, MoveDB.solarBeam, MoveDB.smackDown, MoveDB.thunderbolt, MoveDB.thunder, MoveDB.earthquake, MoveDB.return, MoveDB.psychic, MoveDB.shadowBall, MoveDB.brickBreak, MoveDB.doubleTeam, MoveDB.flamethrower, MoveDB.sandstorm, MoveDB.fireBlast, MoveDB.rockTomb, MoveDB.facade, MoveDB.rest, MoveDB.attract, MoveDB.round, MoveDB.focusBlast, MoveDB.fling, MoveDB.gigaImpact, MoveDB.bulldoze, MoveDB.rockSlide, MoveDB.swagger, MoveDB.sleepTalk, MoveDB.substitute, MoveDB.wildCharge, MoveDB.surf, MoveDB.confide],
+        eggMoves: [MoveDB.lick, MoveDB.charm, MoveDB.doubleEdge, MoveDB.curse, MoveDB.fisure, MoveDB.whirlwind, MoveDB.pursuit, MoveDB.counter, MoveDB.naturalGift, MoveDB.afterYou, MoveDB.belch, MoveDB.powerUpPunch],
+        tutorMoves: [MoveDB.covet, MoveDB.ironHead, MoveDB.seedBomb, MoveDB.gunkShot, MoveDB.thunderPunch, MoveDB.firePunch, MoveDB.icePunch, MoveDB.block, MoveDB.lastResort, MoveDB.superpower, MoveDB.icyWind, MoveDB.zenHeadbutt, MoveDB.hyperVoice, MoveDB.snore, MoveDB.focusPunch, MoveDB.shockWave, MoveDB.waterPulse, MoveDB.afterYou, MoveDB.outrage, MoveDB.recycle, MoveDB.snatch, MoveDB.stompingTrantrum]
     },
     {
         id: 144,
-        name: "articuno"
+        name: "articuno",
+        levelMoves: [MoveDB.gust, MoveDB.powderSnow, MoveDB.mist, MoveDB.iceShard, MoveDB.mindReader, MoveDB.ancientPower, MoveDB.agility, MoveDB.freezeDry, MoveDB.reflect, MoveDB.hail, MoveDB.tailwind, MoveDB.iceBeam, MoveDB.blizzard, MoveDB.roost, MoveDB.hurricane, MoveDB.sheerCold],
+        tmMoves: [MoveDB.roar, MoveDB.toxic, MoveDB.hail, MoveDB.hiddenPower, MoveDB.sunnyDay, MoveDB.iceBeam, MoveDB.blizzard, MoveDB.hyperBeam, MoveDB.protect, MoveDB.rainDance, MoveDB.roost, MoveDB.frustration, MoveDB.return, MoveDB.doubleTeam, MoveDB.reflect, MoveDB.sandstorm, MoveDB.aerialAce, MoveDB.facade, MoveDB.rest, MoveDB.round, MoveDB.steelWing, MoveDB.skyDrop, MoveDB.gigaImpact, MoveDB.auroraVeil, MoveDB.fly, MoveDB.frostBreath, MoveDB.swagger, MoveDB.sleepTalk, MoveDB.uTurn, MoveDB.substitute, MoveDB.confide],
+        eggMoves: [],
+        tutorMoves: [MoveDB.signalBeam, MoveDB.icyWind, MoveDB.snore, MoveDB.tailwind, MoveDB.skyAttack, MoveDB.waterPulse, MoveDB.defog, MoveDB.laserFocus]
     },
     {
         id: 145,
-        name: "zapdos"
+        name: "zapdos",
+        levelMoves: [MoveDB.peck, MoveDB.thunderShock, MoveDB.thunderWave, MoveDB.detect, MoveDB.pluck, MoveDB.ancientPower, MoveDB.charge, MoveDB.agility, MoveDB.discharge, MoveDB.rainDance, MoveDB.lightScreen, MoveDB.drillPeck, MoveDB.tunder, MoveDB.roost, MoveDB.magneticFlux, MoveDB.zapCannon],
+        tmMoves: [MoveDB.roar, MoveDB.toxic, MoveDB.hiddenPower, MoveDB.sunnyDay, MoveDB.hyperBeam, MoveDB.lightScreen, MoveDB.protect, MoveDB.rainDance, MoveDB.roost, MoveDB.frustration, MoveDB.thunderbolt, MoveDB.thunder, MoveDB.return, MoveDB.doubleTeam, MoveDB.sandstorm, MoveDB.aerialAce, MoveDB.facade, MoveDB.rest, MoveDB.round, MoveDB.steelWing, MoveDB.chargeBeam, MoveDB.skyDrop, MoveDB.gigaImpact, MoveDB.voltSwitch, MoveDB.thunderWave, MoveDB.fly, MoveDB.swagger, MoveDB.sleepTalk, MoveDB.uTurn, MoveDB.substitute, MoveDB.wildCharge, MoveDB.confide],
+        eggMoves: [],
+        tutorMoves: [MoveDB.signalBeam, MoveDB.snore, MoveDB.heatWave, MoveDB.tailwind, MoveDB.skyAttack, MoveDB.shockWave, MoveDB.defog, MoveDB.laserFocus]
     },
     {
         id: 146,
-        name: "moltres"
+        name: "moltres",
+        levelMoves: [MoveDB.wingAttack, MoveDB.ember, MoveDB.fireSpin, MoveDB.agility, MoveDB.endure, MoveDB.ancientPower, MoveDB.flamethrower, MoveDB.safeguard, MoveDB.airSlash, MoveDB.sunnyDay, MoveDB.heatWave, MoveDB.solarBeam, MoveDB.skyAttack, MoveDB.roost, MoveDB.hurricane, MoveDB.burnUp],
+        tmMoves: [MoveDB.roar, MoveDB.toxic, MoveDB.hiddenPower, MoveDB.sunnyDay, MoveDB.hyperBeam, MoveDB.protect, MoveDB.rainDance, MoveDB.roost, MoveDB.safeguard, MoveDB.frustration, MoveDB.solarBeam, MoveDB.return, MoveDB.doubleTeam, MoveDB.flamethrower, MoveDB.sandstorm, MoveDB.fireBlast, MoveDB.aerialAce, MoveDB.facade, MoveDB.flameCharge, MoveDB.rest, MoveDB.round, MoveDB.overheat, MoveDB.steelWing, MoveDB.skyDrop, MoveDB.willOWisp, MoveDB.gigaImpact, MoveDB.fly, MoveDB.swagger, MoveDB.sleepTalk, MoveDB.uTurn, MoveDB.substitute, MoveDB.confide],
+        eggMoves: [],
+        tutorMoves: [MoveDB.snore, MoveDB.heatWave, MoveDB.tailWind, MoveDB.skyAttack, MoveDB.defog, MoveDB.laserFocus]
     },
     {
         id: 147,
-        name: "dratini"
+        name: "dratini",
+        levelMoves: [MoveDB.wrap, MoveDB.leer, MoveDB.thunderWave, MoveDB.twister, MoveDB.dragonRage, MoveDB.slam, MoveDB.agility, MoveDB.dragonTail, MoveDB.aquaTail, MoveDB.dragonRush, MoveDB.safeguard, MoveDB.dragonDance, MoveDB.outrage, MoveDB.hyyperBeam],
+        tmMoves: [MoveDB.toxic, MoveDB.hail, MoveDB.hiddenPower, MoveDB.sunnyDay, MoveDB.iceBeam, MoveDB.blizzard, MoveDB.hyperBeam, MoveDB.lightScreen, MoveDB.protect, MoveDB.rainDance, MoveDB.safeguard, MoveDB.frustration, MoveDB.thunderbolt, MoveDB.thunder, MoveDB.return, MoveDB.doubleTeam, MoveDB.flamethrower, MoveDB.fireBlast, MoveDB.facade, MoveDB.attract, MoveDB.rest, MoveDB.round, MoveDB.brutalSwing, MoveDB.tghunderWave, MoveDB.dragonTAil, MoveDB.swagger, MoveDB.sleepTalk, MoveDB.substitute, MoveDB.surf, MoveDB.waterfall, MoveDB.confide],
+        eggMoves: [MoveDB.mist, MoveDB.haze, MoveDB.supersonic, MoveDB.dragonBreath, MoveDB.dragonDance, MoveDB.dragonRush, MoveDB.extremeSpeed, MoveDB.waterPulse, MoveDB.aquaJet, MoveDB.dragonPulse, MoveDB.ironTail],
+        tutorMoves: [MoveDB.dracoMeteor, MoveDB.icyWind, MoveDB.aquaTail, MoveDB.dragonPulse, MoveDB.ironTail, MoveDB.bind, MoveDB.snore, MoveDB.shockWave, MoveDB.waterPulse, MoveDB.outrage]
     },
     {
         id: 148,
-        name: "dragonair"
+        name: "dragonair",
+        levelMoves: [MoveDB.wrap, MoveDB.leer, MoveDB.thunderWave, MoveDB.twister, MoveDB.thunderWave, MoveDB.dragonRage, MoveDB.slam, MoveDB.dragonTail, MoveDB.aquaTail, MoveDB.dragonRush, MoveDB.safeguard, MoveDB.dragonDance, MoveDB.outrage, MoveDB.hyperBeam],
+        tmMoves: [MoveDB.toxic, MoveDB.hail, MoveDB.hiddenPower, MoveDB.sunnyDay, MoveDB.iceBeam, MoveDB.blizzard, MoveDB.hyperBeam, MoveDB.lightScreen, MoveDB.protect, MoveDB.rainDance, MoveDB.safeguard, MoveDB.frustration, MoveDB.thunderbolt, MoveDB.thudner, MoveDB.return, MoveDB.doubleTeam, MoveDB.flamethorwer, MoveDB.fireBlast, MoveDB.facde, MoveDB.rest, MoveDB.attract, MoveDB.round, MoveDB.brutalSwing, MoveDB.thunderWave, MoveDB.dragonTail, MoveDB.swagger, MoveDB.sleepTalk, MoveDB.substitue, MoveDB.surf, MoveDB.waterfall, MoveDB.confdie],
+        eggMoves: [MoveDB.mist, MoveDB.haze, MoveDB.supersonic, MoveDB.dragonBreath, MoveDB.dragonDance, MoveDB.dragonRush, MoveDB.extremeSpeed, MoveDB.waterPulse, MoveDB.aquaJet, MoveDB.dragonPulse, MoveDB.ironTail],
+        tutorMoves: [MoveDB.dracoMeteor, MoveDB.icyWind, MoveDB.aquaTail, MoveDB.dragonPulse, MoveDB.ironTail, MoveDB.bind, MoveDB.snore, MoveDB.shockWave, MoveDB.waterPulse, MoveDB.outrage]
     },
     {
         id: 149,
-        name: "dragonite"
+        name: "dragonite",
+        levelMoves: [MoveDB.wingAttack, MoveDB.hurricane, MoveDB.firePunch, MoveDB.thunderPunch, MoveDB.roost, MoveDB.wrap, MoveDB.leer, MoveDB.thunderWave, MoveDB.twister, MoveDB.thunderWave, MoveDB.dragonRage, MoveDB.slam, MoveDB.agility, MoveDB.dragonTail, MoveDB.aquaTail, MoveDB.dragonRush, MoveDB.safeguard, MoveDB.dragonDance, MoveDB.outrage, MoveDB.hyperBeam, MoveDB.hurricane],
+        tmMoves: [MoveDB.dragonClaw, MoveDB.roar, MoveDB.toxic, MoveDB.hail, MoveDB.hiddenPower, MoveDB.sunnyDay, MoveDB.iceBeam, MoveDB.blizzard, MoveDB.hyperBeam, MoveDB.lightScreen, MoveDB.protect, MoveDB.rainDance, MoveDB.roost, MoveDB.safeguard, MoveDB.frustration, MoveDB.thunderbolt, MoveDB.thunder, MoveDB.earthquake, MoveDB.return, MoveDB.brickBreak, MoveDB.doubleTeam, MoveDB.flamethrower, MoveDB.sandstorm, MoveDB.fireBlast, MoveDB.rockTomb, MoveDB.aerialAce, MoveDB.facade, MoveDB.rest, MoveDB.attract, MoveDB.roun, MoveDB.steelWing, MoveDB.focusBlast, MoveDB.fling, MoveDB.skyDrop, MoveDB.brutalSwing, MoveDB.gigaImpact, MoveDB.stoneEdge, MoveDB.thunderWave, MoveDB.fly, MoveDB.bulldoze, MoveDB.rockSlide, MoveDB.dragonTail, MoveDB.swagger, MoveDB.sleeptAlk, MoveDB.substitute, MoveDB.surf, MoveDB.waterfall, MoveDB.confide],
+        eggMoves: [MoveDB.mist, MoveDB.haze, MoveDB.supersonic, MoveDB.dragonBreath, MoveDB.dragonDance, MoveDB.dragonRush, MoveDB.extremeSpeed, MoveDB.waterPulse, MoveDB.aquaJet, MoveDB.dragonPulse, MoveDB.ironTail],
+        tutorMoves: [MoveDB.dracoMeteor, MoveDB.ironHead, MoveDB.thunderPunch, MoveDB.firePunch, MoveDB.icePunch, MoveDB.superpower, MoveDB.icyWind, MoveDB.aquaTail, MoveDB.dragonPulse, MoveDB.ironTail, MoveDB.bind, MoveDB.snore, MoveDB.heatWave, MoveDB.tailWind, MoveDB.focusPunch, MoveDB.shockWave, MoveDB.waterPulse, MoveDB.outrage, MoveDB.defog] 
     },
     {
         id: 150,
-        name: "mewtwo"
+        name: "mewtwo",
+        levelMoves: [MoveDB.laserFocus, MoveDB.psywave, MoveDB.confusion, MoveDB.disable, MoveDB.safeguard, MoveDB.swift, MoveDB.futureSighjt, MoveDB.psychUp, MoveDB.miracleEye, MoveDB.psychoCut, MoveDB.powerSwap, MoveDB.guardSwap, MoveDB.recover, MoveDB.psychic, MoveDB.barrier, MoveDB.auraSphere, MoveDB.amnesia, MoveDB.mist, MoveDB.meFirst, MoveDB.psystirke],
+        tmMoves: [MoveDB.psyshock, MoveDB.calmMind, MoveDB.toxic, MoveDB.hail, MoveDB.bulkUp, MoveDB.hiddenPower, MoveDB.sunnyDay, MoveDB.taunt, MoveDB.iceBeam, MoveDB.blizzard, MoveDB.hyperBeam, MoveDB.lightScreen, MoveDB.protect, MoveDB.rainDance, MoveDB.safguard, MoveDB.frustration, MoveDB.solarBeam, MoveDB.thunderbolt, MoveDB.thunder, MoveDB.earthquake, MoveDB.return, MoveDB.psychic, MoveDB.shadowBall, MoveDB.brickBreak, MoveDB.doubleTeam, MoveDB.reflect, MoveDB.flamethrower, MoveDB.sandstorm, MoveDB.fireBlast, MoveDB.rockTomb, MoveDB.aerialAce, MoveDB.torment, MoveDB.facade, MoveDB.rest, MoveDB.lowSweep, MoveDB.round, MoveDB.focusBlast, MoveDB.energyBall, MoveDB.fling, MoveDB.chargeBeam, MoveDB.brutalSwing, MoveDB.willOWisp, MoveDB.embargo, MoveDB.gigaImpact, MoveDB.stoneEdge, MoveDB.thunderWave, MoveDB.psychUp, MoveDB.bulldoze, MoveDB.rockSlide, MoveDB.poisonJab, MoveDB.dreamEater, MoveDB.grassKnot, MoveDB.swagger, MoveDB.sleepTalk, MoveDB.substittue, MoveDB.trickRoom, MoveDB.confide],
+        eggMoves: [],
+        tutorMoves: [MoveDB.signalBeam, MoveDB.lowKick, MoveDB.thunderPunch, MoveDB.firePunch, MoveDB.icePunch, MoveDB.magicCoat, MoveDB.foulPlay, MoveDB.gravity, MoveDB.icyWind, MoveDB.aquaTail, MoveDB.zenHeadbutt, MoveDB.ironTail, MoveDB.snore, MoveDB.rolePlay, MoveDB.drainPunch, MoveDB.focusPunch, MoveDB.shockWave, MoveDB.waterPulse, MoveDB.trick, MoveDB.magicRoom, MoveDB.wonderRoom, MoveDB.recycle, MoveDB.snatch, MoveDB.skillSwap, MoveDB.telekinesis, MoveDB.laserFocus]
     },
     {
         id: 151,
-        name: "mew"
+        name: "mew",
+        levelMoves: [MoveDB.pound, MoveDB.reflectType, MoveDB.transform, MoveDB.megaPunch, MoveDB.metronome, MoveDB.psychic, MoveDB.barrier, MoveDB.ancientPower, MoveDB.amnesia, MoveDB.meFirst, MoveDB.batonPass, MoveDB.nastyPlot, MoveDB.auraSphere],
+        tmMoves: [MoveDB.workUp, MoveDB.dragonClaw, MoveDB.psychock, MoveDB.calmMind, MoveDB.roar, MoveDB.toxic, MoveDB.hail, MoveDB.bulkUp, MoveDB.venoshock, MoveDB.hiddenPower, MoveDB.sunnyDay, MoveDB.taunt, MoveDB.iceBeam, MoveDB.blizzard, MoveDB.hyperBeam, MoveDB.lightScreen, MoveDB.protect, MoveDB.rainDance, MoveDB.roost, MoveDB.safeguard, MoveDB.frustration, MoveDB.solarBeam, MoveDB.smackDown, MoveDB.thunderbolt, MoveDB.thunder, MoveDB.earthquake, MoveDB.return, MoveDB.leechLife, MoveDB.psychic, MoveDB.shadowBall, MoveDB.brickBreak, MoveDB.doubleTeam, MoveDB.reflect, MoveDB.sludgeWave, MoveDB.flamethrower, MoveDB.sludgeBomb, MoveDB.sandstorm, MoveDB.fireBlast, MoveDB.rockTomb, MoveDB.aerialAce, MoveDB.torment, MoveDB.facade, MoveDB.flameCharge, MoveDB.rest, MoveDB.attract, MoveDB.thief, MoveDB.lowSweep, MoveDB.round, MoveDB.echoedVoice, MoveDB.overheat, MoveDB.steelWing, MoveDB.focusBlast, MoveDB.energyBall, MoveDB.falseSwipe, MoveDB.scald, MoveDB.fling, MoveDB.chargeBeam, MoveDB.skyDrop, MoveDB.brutalSwing, MoveDB.quash, MoveDB.willOwisp, MoveDB.acrobatics, MoveDB.embargo, MoveDB.explosion, MoveDB.shadowClaw, MoveDB.payback, MoveDB.smartStrike, MoveDB.gigaImpact, MoveDB.rockPolish, MoveDB.auroraVeil, MoveDB.stoneEdge, MoveDB.voltSwitch, MoveDB.thunderWave, MoveDB.gyroBall, MoveDB.swordsDance, MoveDB.fly, MoveDB.psychUp, MoveDB.bulldoze, MoveDB.frostBreath, MoveDB.rockSlide, MoveDB.xScissor, MoveDB.dragonTail, MoveDB.infestation, MoveDB.poisonJab, MoveDB.dreamEater, MoveDB.grassKnot, MoveDB.swagger, MoveDB.sleepTalk, MoveDB.uTurn, MoveDB.substitute, MoveDB.flashCannon, MoveDB.trickRoom, MoveDB.wildCharge, MoveDB.surf, MoveDB.snarl, MoveDB.naturePower, MoveDB.darkPulse, MoveDB.waterfall, MoveDB.dazzlingGleam, MoveDB.confide],
+        eggMoves: [],
+        tutorMoves: [MoveDB.bugBite, MoveDB.covet, MoveDB.superFang, MoveDB.dualChop, MoveDB.signalBeam, MoveDB.ironHead, MoveDB.seedBomb, MoveDB.drillRun, MoveDB.bounce, MoveDB.lowKick, MoveDB.gunkShot, MoveDB.uprorar, MoveDB.thunderPunch, MoveDB.firePunch, MoveDB.icePunch, MoveDB.magicCoat, MoveDB.block, MoveDB.earthPower, MoveDB.foulPlay, MoveDB.gravity, MoveDB.magnetRise, MoveDB.ironDefense, MoveDB.lastResort, MoveDB.superpower, MoveDB.electroweb, MoveDB.icyWind, MoveDB.aquaTail, MoveDB.zenHeadbutt, MoveDB.dragonPulse, MoveDB.hyperVoice, MoveDB.ironTail, MoveDB.bind, MoveDB.snore, MoveDB.knockOff, MoveDB.synthesis, MoveDB.heatWave, MoveDB.rolePlay, MoveDB.healBell, MoveDB.tailwind, MoveDB.skyAttack, MoveDB.painSplit, MoveDB.gigaDrain, MoveDB.drainPunch, MoveDB.focusPunch, MoveDB.shockWave, MoveDB.waterPulse, MoveDB.gastroAcid, MoveDB.worrySeed, MoveDB.spite, MoveDB.afterYou, MoveDB.helpingHand, MoveDB.trick, MoveDB.magicRoom, MoveDB.wonderRoom, MoveDB.endeavor, MoveDB.outrage, MoveDB.recycle, MoveDB.snatch, MoveDB.stealthRock, MoveDB.skillSwap, MoveDB.telekinesis, MoveDB.allySwitch, MoveDB.defog, MoveDB.liqudation, MoveDB.stompingTantrum, MoveDB.throatChop, MoveDB.laserFocus]
     },
     {
         id: 152,
