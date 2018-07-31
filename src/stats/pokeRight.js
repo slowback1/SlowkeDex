@@ -10,7 +10,7 @@ import Pokemon from '../pokemon/Pokemon';
 import Stats from './Stats';
 import Types from '../types/types';
 import TypeAverages from './typeAverages';
-import './stats.css';
+
 
 const PokeRight = ({ pokeID }) => {
     let name=Pokemon[pokeID-1].name.charAt(0).toUpperCase() + Pokemon[pokeID-1].name.slice(1);

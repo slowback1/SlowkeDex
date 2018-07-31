@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Pokemon from '../pokemon/Pokemon.js';
 import Stats from './Stats.js';
 import Types from '../types/types';
-import './stats.css';
+
 
 class StatsContain extends Component {
     render() {

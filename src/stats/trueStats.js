@@ -3,7 +3,7 @@ import Pokemon from '../pokemon/Pokemon';
 import PokeRight from './pokeRight';
 //eslint-disable-next-line
 import PokemonDB from './pokemonDB';
-import './stats.css';
+
 
 let cd = 1;//Math.floor(Math.random() * 803);
 /*
@@ -48,15 +48,8 @@ class TrueStats extends Component {
     }
     render() {
         return(
-           <div className="loadingScreen">
-                <div className="dots">
-                    <h1> Now Loading</h1>
-                    <div className="dotsdots">
-                    <div className="dot d1"></div>
-                    <div className="dot d2"></div>
-                    <div className="dot d3"> </div>
-                    </div>
-                </div>
+           <div className="app">
+
                 <div className="g">
                                 <div className="pokeLeft">
                 { Pokemon.map((pokemon) => {

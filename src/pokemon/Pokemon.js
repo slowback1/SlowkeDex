@@ -1461,7 +1461,11 @@ let PokemonDB = [{
     },
     {
         id: 183,
-        name: "marill"
+        name: "marill",
+        levelMoves: [MoveDB.tackle, MoveDB.waterGun, MoveDB.tailWhip, MoveDB.waterSport, MoveDB.bubble, MoveDB.defenseCurl, MoveDB.rollout, MoveDB.bubblebeam, MoveDB.helpingHand, MoveDB.aquaTail, MoveDB.playRough, MoveDB.aquaRing, MoveDB.rainDance, MoveDB.doubleEdge, MoveDB.superpower, MoveDB.hydroPump],
+        tmMoves: [MoveDB.workUp, MoveDB.toxic, MoveDB.hail, MoveDB.hiddenPower, MoveDB.iceBeam, MoveDB.blizzard, MoveDB.lightScreen, MoveDB.protect, MoveDB.rainDance, MoveDB.frustration, MoveDB.return, MoveDB.brickBreak, MoveDB.doubleTeam, MoveDB.facade, MoveDB.rest, MoveDB.attract, MoveDB.round, MoveDB.scald, MoveDB.fling, MoveDB.grassKnot, MoveDB.swagger, MoveDB.sleepTalk, MoveDB.substitute, MoveDB.surf, MoveDB.waterfall, MoveDB.confide],
+        eggMoves: [MoveDB.present, MoveDB.amnesia, MoveDB.futureSight, MoveDB.bellyDrum, MoveDB.perishSong, MoveDB.supersonic, MoveDB.aquaJet, MoveDB.supersonic, MoveDB.aquaJet, MoveDB.superpower, MoveDB.refresh, MoveDB.bodySlam, MoveDB.waterSport, MoveDB.muddyWater, MoveDB.camouflage],
+        tutorMoves: [MoveDB.covet, MoveDB.bounce, MoveDB.icePunch, MoveDB.superpower, MoveDB.icyWind, MoveDB.aquaTail, MoveDB.hyperVoice, MoveDB.ironTail, MoveDB.snore, MoveDB.knockOff, MoveDB.focusPunch, MoveDB.waterPulse, MoveDB.helpingHand]
     },
     {
         id: 184,

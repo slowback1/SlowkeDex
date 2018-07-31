@@ -1,0 +1,2665 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* colors */
+/* fonts */
+@keyframes DotShow {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes stats_45 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 17.6%;
+  }
+}
+@keyframes stats_49 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 19.2%;
+  }
+}
+@keyframes stats_65 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 25.5%;
+  }
+}
+@keyframes stats_60 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 23.5%;
+  }
+}
+@keyframes stats_62 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 24.3%;
+  }
+}
+@keyframes stats_63 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 24.7%;
+  }
+}
+@keyframes stats_80 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 31.4%;
+  }
+}
+@keyframes stats_100 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 39.2%;
+  }
+}
+@keyframes stats_13 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 5.1%;
+  }
+}
+@keyframes stats_143 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 56.1%;
+  }
+}
+@keyframes stats_123 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 48.2%;
+  }
+}
+@keyframes stats_122 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 47.8%;
+  }
+}
+@keyframes stats_120 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 47.1%;
+  }
+}
+@keyframes stats_39 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 15.2%;
+  }
+}
+@keyframes stats_52 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 20.4%;
+  }
+}
+@keyframes stats_43 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 16.9%;
+  }
+}
+@keyframes stats_50 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 19.6%;
+  }
+}
+@keyframes stats_58 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 22.7%;
+  }
+}
+@keyframes stats_64 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 25.1%;
+  }
+}
+@keyframes stats_78 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 30.6%;
+  }
+}
+@keyframes stats_104 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 40.8%;
+  }
+}
+@keyframes stats_159 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 62.4%;
+  }
+}
+@keyframes stats_115 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 45.1%;
+  }
+}
+@keyframes stats_44 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 17.3%;
+  }
+}
+@keyframes stats_48 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 18.8%;
+  }
+}
+@keyframes stats_59 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 23.1%;
+  }
+}
+@keyframes stats_79 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 31%;
+  }
+}
+@keyframes stats_83 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 32.5%;
+  }
+}
+@keyframes stats_83 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 32.5%;
+  }
+}
+@keyframes stats_85 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 33.3%;
+  }
+}
+@keyframes stats_105 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 41.2%;
+  }
+}
+@keyframes stats_30 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 11.8%;
+  }
+}
+@keyframes stats_35 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 13.7%;
+  }
+}
+@keyframes stats_20 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 7.8%;
+  }
+}
+@keyframes stats_55 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 21.6%;
+  }
+}
+@keyframes stats_25 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 9.8%;
+  }
+}
+@keyframes stats_90 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 35.3%;
+  }
+}
+@keyframes stats_90 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 35.3%;
+  }
+}
+@keyframes stats_70 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 27.5%;
+  }
+}
+@keyframes stats_40 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 15.7%;
+  }
+}
+@keyframes stats_75 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 29.4%;
+  }
+}
+@keyframes stats_56 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 22%;
+  }
+}
+@keyframes stats_71 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 27.8%;
+  }
+}
+@keyframes stats_101 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 39.6%;
+  }
+}
+@keyframes stats_72 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 28.2%;
+  }
+}
+@keyframes stats_81 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 31.8%;
+  }
+}
+@keyframes stats_97 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 38%;
+  }
+}
+@keyframes stats_31 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 12.2%;
+  }
+}
+@keyframes stats_61 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 23.9%;
+  }
+}
+@keyframes stats_54 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 21.2%;
+  }
+}
+@keyframes stats_95 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 37.3%;
+  }
+}
+@keyframes stats_69 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 27.1%;
+  }
+}
+@keyframes stats_110 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 43.1%;
+  }
+}
+@keyframes stats_47 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 18.4%;
+  }
+}
+@keyframes stats_41 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 16.1%;
+  }
+}
+@keyframes stats_67 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 26.3%;
+  }
+}
+@keyframes stats_92 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 36.1%;
+  }
+}
+@keyframes stats_87 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 34.1%;
+  }
+}
+@keyframes stats_76 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 29.8%;
+  }
+}
+@keyframes stats_46 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 18%;
+  }
+}
+@keyframes stats_57 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 22.4%;
+  }
+}
+@keyframes stats_102 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 40%;
+  }
+}
+@keyframes stats_77 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 30.2%;
+  }
+}
+@keyframes stats_73 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 28.6%;
+  }
+}
+@keyframes stats_38 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 14.9%;
+  }
+}
+@keyframes stats_140 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 54.9%;
+  }
+}
+@keyframes stats_10 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 3.9%;
+  }
+}
+@keyframes stats_82 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 32.2%;
+  }
+}
+@keyframes stats_15 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 5.9%;
+  }
+}
+@keyframes stats_175 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 68.7%;
+  }
+}
+@keyframes stats_150 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 58.8%;
+  }
+}
+@keyframes stats_130 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 51%;
+  }
+}
+@keyframes stats_180 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 71%;
+  }
+}
+@keyframes stats_160 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 62.7%;
+  }
+}
+@keyframes stats_42 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 16.5%;
+  }
+}
+@keyframes stats_125 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 49%;
+  }
+}
+@keyframes stats_53 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 20.8%;
+  }
+}
+@keyframes stats_250 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 98%;
+  }
+}
+@keyframes stats_5 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 2%;
+  }
+}
+@keyframes stats_68 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 26.7%;
+  }
+}
+@keyframes stats_93 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 36.5%;
+  }
+}
+@keyframes stats_84 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 32.9%;
+  }
+}
+@keyframes stats_91 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 35.7%;
+  }
+}
+@keyframes stats_134 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 52.5%;
+  }
+}
+@keyframes stats_106 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 41.6;
+  }
+}
+@keyframes stats_154 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 60.4%;
+  }
+}
+@keyframes stats_109 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 42.7%;
+  }
+}
+@keyframes stats_34 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 13.3%;
+  }
+}
+@keyframes stats_36 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 14.1%;
+  }
+}
+@keyframes stats_86 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 33.7%;
+  }
+}
+@keyframes stats_96 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 37.6%;
+  }
+}
+@keyframes stats_28 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 11%;
+  }
+}
+@keyframes stats_190 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 74.5%;
+  }
+}
+@keyframes stats_33 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 12.9%;
+  }
+}
+@keyframes stats_200 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 78.4%;
+  }
+}
+@keyframes stats_230 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 90.2%;
+  }
+}
+@keyframes stats_37 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 14.5%;
+  }
+}
+@keyframes stats_255 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 100%;
+  }
+}
+@keyframes stats_135 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 52.9%;
+  }
+}
+@keyframes stats_51 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 20%;
+  }
+}
+@keyframes stats_32 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 12.5%;
+  }
+}
+@keyframes stats_1 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 0.4%;
+  }
+}
+@keyframes stats_23 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 9%;
+  }
+}
+@keyframes stats_144 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 56.5%;
+  }
+}
+@keyframes stats_170 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 66.7%;
+  }
+}
+@keyframes stats_66 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 25.9%;
+  }
+}
+@keyframes stats_107 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 42%;
+  }
+}
+@keyframes stats_99 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 38.8%;
+  }
+}
+@keyframes stats_74 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 29%;
+  }
+}
+@keyframes stats_94 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 36.9%;
+  }
+}
+@keyframes stats_114 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 44.7%;
+  }
+}
+@keyframes stats_89 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 34.9%;
+  }
+}
+@keyframes stats_108 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 42.4%;
+  }
+}
+@keyframes stats_88 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 34.5%;
+  }
+}
+@keyframes stats_111 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 43.5%;
+  }
+}
+@keyframes stats_165 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 64.7%;
+  }
+}
+@keyframes stats_118 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 46.3%;
+  }
+}
+@keyframes stats_168 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 65.9%;
+  }
+}
+@keyframes stats_138 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 54.1%;
+  }
+}
+@keyframes stats_29 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 11.4%;
+  }
+}
+@keyframes stats_112 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 43.9%;
+  }
+}
+@keyframes stats_103 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 40.4%;
+  }
+}
+@keyframes stats_24 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 9.4%;
+  }
+}
+@keyframes stats_116 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 45.5%;
+  }
+}
+@keyframes stats_145 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 56.8%;
+  }
+}
+@keyframes stats_113 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 44.3%;
+  }
+}
+@keyframes stats_98 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 38.4%;
+  }
+}
+@keyframes stats_27 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 10.6%;
+  }
+}
+@keyframes stats_117 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 45.9%;
+  }
+}
+@keyframes stats_22 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 8.6%;
+  }
+}
+@keyframes stats_133 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 52.2%;
+  }
+}
+@keyframes stats_131 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 51.4%;
+  }
+}
+@keyframes stats_147 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 57.6%;
+  }
+}
+@keyframes stats_124 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 48.6%;
+  }
+}
+@keyframes stats_129 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 50.6%;
+  }
+}
+@keyframes stats_128 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 50.2%;
+  }
+}
+@keyframes stats_126 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 49.4%;
+  }
+}
+@keyframes stats_121 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 47.5%;
+  }
+}
+@keyframes stats_119 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 46.7%;
+  }
+}
+@keyframes stats_128 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 50.2%;
+  }
+}
+@keyframes stats_126 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 49.4%;
+  }
+}
+@keyframes stats_121 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 47.5%;
+  }
+}
+@keyframes stats_119 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 46.7%;
+  }
+}
+@keyframes stats_184 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 72.2%;
+  }
+}
+@keyframes stats_132 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 51.8%;
+  }
+}
+@keyframes stats_152 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 59.6%;
+  }
+}
+@keyframes stats_142 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 55.7%;
+  }
+}
+@keyframes stats_137 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 53.7%;
+  }
+}
+@keyframes stats_127 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 49.8%;
+  }
+}
+@keyframes stats_139 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 54.5%;
+  }
+}
+@keyframes stats_151 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 59.2%;
+  }
+}
+@keyframes stats_173 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 67.8%;
+  }
+}
+@keyframes stats_181 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 71%;
+  }
+}
+@keyframes stats_223 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 87.5%;
+  }
+}
+@keyframes stats_211 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 82.7%;
+  }
+}
+@keyframes stats_13 {
+  0% {
+    height: 12px;
+    width: 0%;
+  }
+  100% {
+    height: 12px;
+    width: 5.1%;
+  }
+}
+@keyframes loadingHide {
+  0% {
+    visibility: hidden;
+  }
+  99% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+@keyframes loadingShow {
+  0% {
+    visibility: visible;
+  }
+  99% {
+    visibility: visible;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+.stat_45 {
+  animation-name: stats_45;
+}
+
+.stat_49 {
+  animation-name: stats_49;
+}
+
+.stat_65 {
+  animation-name: stats_65;
+}
+
+.stat_60 {
+  animation-name: stats_60;
+}
+
+.stat_62 {
+  animation-name: stats_62;
+}
+
+.stat_63 {
+  animation-name: stats_63;
+}
+
+.stat_80 {
+  animation-name: stats_80;
+}
+
+.stat_100 {
+  animation-name: stats_100;
+}
+
+.stat_123 {
+  animation-name: stats_123;
+}
+
+.stat_122 {
+  animation-name: stats_122;
+}
+
+.stat_120 {
+  animation-name: stats_120;
+}
+
+.stat_39 {
+  animation-name: stats_39;
+}
+
+.stat_52 {
+  animation-name: stats_52;
+}
+
+.stat_43 {
+  animation-name: stats_43;
+}
+
+.stat_50 {
+  animation-name: stats_50;
+}
+
+.stat_58 {
+  animation-name: stats_58;
+}
+
+.stat_64 {
+  animation-name: stats_64;
+}
+
+.stat_78 {
+  animation-name: stats_78;
+}
+
+.stat_104 {
+  animation-name: stats_104;
+}
+
+.stat_159 {
+  animation-name: stats_159;
+}
+
+.stat_115 {
+  animation-name: stats_115;
+}
+
+.stat_44 {
+  animation-name: stats_44;
+}
+
+.stat_48 {
+  animation-name: stats_48;
+}
+
+.stat_59 {
+  animation-name: stats_59;
+}
+
+.stat_79 {
+  animation-name: stats_79;
+}
+
+.stat_83 {
+  animation-name: stats_83;
+}
+
+.stat_85 {
+  animation-name: stats_85;
+}
+
+.stat_105 {
+  animation-name: stats_105;
+}
+
+.stat_30 {
+  animation-name: stats_30;
+}
+
+.stat_35 {
+  animation-name: stats_30;
+}
+
+.stat_20 {
+  animation-name: stats_20;
+}
+
+.stat_55 {
+  animation-name: stats_55;
+}
+
+.stat_25 {
+  animation-name: stats_25;
+}
+
+.stat_90 {
+  animation-name: stats_90;
+}
+
+.stat_70 {
+  animation-name: stats_70;
+}
+
+.stat_40 {
+  animation-name: stats_40;
+}
+
+.stat_75 {
+  animation-name: stats_75;
+}
+
+.stat_56 {
+  animation-name: stats_56;
+}
+
+.stat_71 {
+  animation-name: stats_71;
+}
+
+.stat_101 {
+  animation-name: stats_101;
+}
+
+.stat_72 {
+  animation-name: stats_72;
+}
+
+.stat_81 {
+  animation-name: stats_81;
+}
+
+.stat_97 {
+  animation-name: stats_97;
+}
+
+.stat_31 {
+  animation-name: stats_31;
+}
+
+.stat_61 {
+  animation-name: stats_61;
+}
+
+.stat_54 {
+  animation-name: stats_54;
+}
+
+.stat_95 {
+  animation-name: stats_95;
+}
+
+.stat_69 {
+  animation-name: stats_69;
+}
+
+.stat_110 {
+  animation-name: stats_110;
+}
+
+.stat_47 {
+  animation-name: stats_47;
+}
+
+.stat_41 {
+  animation-name: stats_41;
+}
+
+.stat_67 {
+  animation-name: stats_67;
+}
+
+.stat_92 {
+  animation-name: stats_92;
+}
+
+.stat_87 {
+  animation-name: stats_87;
+}
+
+.stat_76 {
+  animation-name: stats_76;
+}
+
+.stat_46 {
+  animation-name: stats_46;
+}
+
+.stat_57 {
+  animation-name: stats_57;
+}
+
+.stat_102 {
+  animation-name: stats_102;
+}
+
+.stat_77 {
+  animation-name: stats_77;
+}
+
+.stat_73 {
+  animation-name: stats_73;
+}
+
+.stat_38 {
+  animation-name: stats_38;
+}
+
+.stat_140 {
+  animation-name: stats_140;
+}
+
+.stat_10 {
+  animation-name: stats_10;
+}
+
+.stat_82 {
+  animation-name: stats_82;
+}
+
+.stat_15 {
+  animation-name: stats_15;
+}
+
+.stat_175 {
+  animation-name: stats_175;
+}
+
+.stat_150 {
+  animation-name: stats_150;
+}
+
+.stat_130 {
+  animation-name: stats_130;
+}
+
+.stat_180 {
+  animation-name: stats_180;
+}
+
+.stat_160 {
+  animation-name: stats_160;
+}
+
+.stat_42 {
+  animation-name: stats_42;
+}
+
+.stat_125 {
+  animation-name: stats_125;
+}
+
+.stat_53 {
+  animation-name: stats_53;
+}
+
+.stat_250 {
+  animation-name: stats_250;
+}
+
+.stat_5 {
+  animation-name: stats_5;
+}
+
+.stat_68 {
+  animation-name: stats_68;
+}
+
+.stat_93 {
+  animation-name: stats_93;
+}
+
+.stat_84 {
+  animation-name: stats_84;
+}
+
+.stat_91 {
+  animation-name: stats_91;
+}
+
+.stat_134 {
+  animation-name: stats_134;
+}
+
+.stat_106 {
+  animation-name: stats_106;
+}
+
+.stat_154 {
+  animation-name: stats_154;
+}
+
+.stat_109 {
+  animation-name: stats_109;
+}
+
+.stat_34 {
+  animation-name: stats_34;
+}
+
+.stat_36 {
+  animation-name: stats_36;
+}
+
+.stat_86 {
+  animation-name: stats_86;
+}
+
+.stat_96 {
+  animation-name: stats_96;
+}
+
+.stat_28 {
+  animation-name: stats_28;
+}
+
+.stat_190 {
+  animation-name: stats_190;
+}
+
+.stat_33 {
+  animation-name: stats_33;
+}
+
+.stat_200 {
+  animation-name: stats_200;
+}
+
+.stat_230 {
+  animation-name: stats_230;
+}
+
+.stat_37 {
+  animation-name: stats_37;
+}
+
+.stat_143 {
+  animation-name: stats_143;
+}
+
+.stat_13 {
+  animation-name: stats_13;
+}
+
+.stat_255 {
+  animation-name: stats_255;
+}
+
+.stat_135 {
+  animation-name: stats_135;
+}
+
+.stat_51 {
+  animation-name: stats_51;
+}
+
+.stat_32 {
+  animation-name: stats_32;
+}
+
+.stat_1 {
+  animation-name: stats_1;
+}
+
+.stat_63 {
+  animation-name: stats_63;
+}
+
+.stat_144 {
+  animation-name: stats_144;
+}
+
+.stat_23 {
+  animation-name: stats_23;
+}
+
+.stat_170 {
+  animation-name: stats_170;
+}
+
+.stat_66 {
+  animation-name: stats_66;
+}
+
+.stat_107 {
+  animation-name: stats_107;
+}
+
+.stat_99 {
+  animation-name: stats_99;
+}
+
+.stat_74 {
+  animation-name: stats_74;
+}
+
+.stat_94 {
+  animation-name: stats_94;
+}
+
+.stat_114 {
+  animation-name: stats_114;
+}
+
+.stat_89 {
+  animation-name: stats_89;
+}
+
+.stat_108 {
+  animation-name: stats_108;
+}
+
+.stat_88 {
+  animation-name: stats_88;
+}
+
+.stat_111 {
+  animation-name: stats_111;
+}
+
+.stat_165 {
+  animation-name: stats_165;
+}
+
+.stat_118 {
+  animation-name: stats_118;
+}
+
+.stat_168 {
+  animation-name: stats_168;
+}
+
+.stat_138 {
+  animation-name: stats_138;
+}
+
+.stat_29 {
+  animation-name: stats_29;
+}
+
+.stat_112 {
+  animation-name: stats_112;
+}
+
+.stat_103 {
+  animation-name: stats_103;
+}
+
+.stat_24 {
+  animation-name: stats_24;
+}
+
+.stat_116 {
+  animation-name: stats_116;
+}
+
+.stat_145 {
+  animation-name: stats_145;
+}
+
+.stat_113 {
+  animation-name: stats_113;
+}
+
+.stat_98 {
+  animation-name: stats_98;
+}
+
+.stat_27 {
+  animation-name: stats_27;
+}
+
+.stat_117 {
+  animation-name: stats_117;
+}
+
+.stat_22 {
+  animation-name: stats_22;
+}
+
+.stat_133 {
+  animation-name: stats_133;
+}
+
+.stat_131 {
+  animation-name: stats_131;
+}
+
+.stat_147 {
+  animation-name: stats_147;
+}
+
+.stat_124 {
+  animation-name: stats_124;
+}
+
+.stat_129 {
+  animation-name: stats_129;
+}
+
+.stat_128 {
+  animation-name: stats_128;
+}
+
+.stat_126 {
+  animation-name: stats_126;
+}
+
+.stat_121 {
+  animation-name: stats_121;
+}
+
+.stat_119 {
+  animation-name: stats_119;
+}
+
+.stat_128 {
+  animation-name: stats_128;
+}
+
+.stat_126 {
+  animation-name: stats_126;
+}
+
+.stat_121 {
+  animation-name: stats_121;
+}
+
+.stat_119 {
+  animation-name: stats_119;
+}
+
+.stat_184 {
+  animation-name: stats_184;
+}
+
+.stat_132 {
+  animation-name: stats_132;
+}
+
+.stat_152 {
+  animation-name: stats_152;
+}
+
+.stat_142 {
+  animation-name: stats_142;
+}
+
+.stat_137 {
+  animation-name: stats_137;
+}
+
+.stat_127 {
+  animation-name: stats_127;
+}
+
+.stat_139 {
+  animation-name: stats_139;
+}
+
+.stat_155 {
+  animation-name: stats_155;
+}
+
+.stat_151 {
+  animation-name: stats_151;
+}
+
+.stat_173 {
+  animation-name: stats_173;
+}
+
+.stat_181 {
+  animation-name: stats_181;
+}
+
+.stat_223 {
+  animation-name: stats_223;
+}
+
+.stat_211 {
+  animation-name: stats_211;
+}
+
+.stat_13 {
+  animation-name: stats_13;
+}
+
+.bug {
+  background-color: #1d9b28;
+}
+
+.dark {
+  background-color: #111;
+}
+
+.dragon {
+  background-color: #07078c;
+}
+
+.electric {
+  background-color: #e8e23e;
+}
+
+.fairy {
+  background-color: #f7a0ed;
+}
+
+.fighting {
+  background-color: #ad1b01;
+}
+
+.fire {
+  background-color: #ff1121;
+}
+
+.flying {
+  background-color: #53c6e2;
+}
+
+.ghost {
+  background-color: #510e75;
+}
+
+.grass {
+  background-color: #037c28;
+}
+
+.ground {
+  background-color: #a56a2e;
+}
+
+.ice {
+  background-color: #a3edeb;
+}
+
+.normal {
+  background-color: #b7b7b7;
+}
+
+.poison {
+  background-color: #8a35c6;
+}
+
+.psychic {
+  background-color: #e855cd;
+}
+
+.rock {
+  background-color: #4f402f;
+}
+
+.steel {
+  background-color: #a09d98;
+}
+
+.water {
+  background-color: #355aff;
+}
+
+.hp {
+  background-color: #e82525;
+}
+
+.attack {
+  background-color: #ffad21;
+}
+
+.defense {
+  background-color: #e5f71b;
+}
+
+.specialAttack {
+  background-color: #4173f2;
+}
+
+.specialDefense {
+  background-color: #57f733;
+}
+
+.speed {
+  background-color: #ea59e5;
+  border-bottom: none;
+}
+
+.wrapper, .n, .nn, .nn > p, .stats, .n > p, .stat, .hp, .attack, .defense, .specialAttack, .specialDefense, .speed {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  padding: 5px;
+}
+
+.nn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 5px 0 5px 15px;
+  text-align: left;
+}
+
+.nn p {
+  align-self: flex-start;
+  margin-left: 4px;
+  color: #dedede;
+  text-shadow: 1px 1px #101010;
+}
+
+.n {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0;
+  padding: 5px 0 5px 15px;
+  text-align: left;
+  border-bottom: 1px dashed #aaa;
+}
+
+.n p {
+  align-self: flex-start;
+  margin-left: 4px;
+  color: #dedede;
+  text-shadow: 1px 1px #101010;
+}
+
+.stats {
+  width: 255px;
+  height: 12px;
+  background: #333;
+  background: rgba(77, 77, 77, 0.5);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.stat {
+  opacity: 1;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0s;
+  animation-timing-function: cubic-bezier(0.2, 0.5, 0.1, 1);
+}
+
+.wrapperBox {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+
+.pokeSprite {
+  width: 100%;
+  height: auto;
+  background-color: inherit;
+  margin: 0 auto;
+}
+
+.pokebox {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px dashed #dedede;
+  margin-right: 0;
+  width: 32.9%;
+  justify-content: center;
+  align-items: baseline;
+  align-content: center;
+  cursor: pointer;
+  background: rgba(69, 71, 74, 0.9);
+}
+
+.pokebox p {
+  margin: 0 auto;
+  color: #dedede;
+  background: transparent;
+  text-shadow: 1px 1px #101010;
+}
+
+.pokeboxExtra {
+  border-right: 1px dashed #dedede;
+}
+
+.pokeboxFinal {
+  border-bottom: none;
+}
+
+.g {
+  margin: 0 auto;
+  width: 50%;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  background-color: #c42323;
+  border-radius: 5px;
+}
+
+.pokeLeft {
+  width: 50%;
+  height: 85%;
+  padding: 35px;
+  margin-top: 21px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+}
+
+.typesSect {
+  margin: -37px 0 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.types {
+  margin: -1px 0 0 0;
+  width: 25%;
+  padding: 4px 8px;
+  color: #eaeaea;
+  text-shadow: 1px 1px #111;
+  text-align: center;
+}
+
+.typesA {
+  border-right: 2px solid #101010;
+  border-top: 1px solid #101010;
+  border-top-right-radius: 5%;
+}
+
+.typesB {
+  border-top: 1px solid #eaeaea;
+  border-left: 2px solid #eaeaea;
+  border-top-left-radius: 5%;
+}
+
+.loadingScreen .g {
+  animation: loadingHide 2s forwards;
+}
+
+.dots {
+  animation: loadingShow 2s forwards;
+  display: flex;
+  flex-direction: column;
+  margin-left: 45%;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: black;
+  border-radius: 100%;
+  animation: DotShow 1s;
+  animation-iteration-count: infinite;
+}
+
+.spriteScreen {
+  margin: 0 auto;
+  width: 85%;
+  height: 60%;
+  background-color: #222;
+  border-bottom: 10px solid black;
+  border-top: 10px solid black;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+.tint {
+  width: 100%;
+  height: 100%;
+  background: #308f3f;
+  background: rgba(48, 143, 63, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pokeRightSprite {
+  margin: 55px 10%;
+  width: 80%;
+  height: auto;
+  opacity: 1;
+}
+
+.dotsdots {
+  display: flex;
+  margin-left: 45px;
+  flex-direction: row;
+}
+
+.d1 {
+  animation-delay: 0s;
+}
+
+.d2 {
+  animation-delay: 200ms;
+}
+
+.d3 {
+  animation-delay: 400ms;
+}
+
+.pokeRight {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  justify-content: space-around;
+}
+
+.pokeRightNameIDSection {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.greenSpace {
+  background-color: rgba(48, 143, 63, 0.2);
+}
+
+.pokeRightName, .pokeRightID {
+  background-color: #939eaf;
+  border-bottom: 1px solid #122112;
+  text-shadow: 1px 1px #101010;
+  color: #222;
+  margin: 0;
+  padding: 7px;
+  font-size: 32px;
+  display: flex;
+  flex-direction: row;
+}
+
+.pokeRightName {
+  border-left: 1px solid #122112;
+  border-bottom-left-radius: 5%;
+}
+
+.pokeRightID {
+  border-right: 1px solid #122112;
+  border-bottom-right-radius: 5%;
+}
+
+.emHashtag {
+  color: #c11324;
+}
+
+.infoPart {
+  border-radius: 5%;
+  background-color: #111;
+  border-top: 4px solid #dddddd;
+  border-bottom: 4px solid #dddddd;
+  border-left: 4px solid #eee;
+  border-right: 4px solid #eee;
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+}
+
+.average1 {
+  height: 12px;
+  z-index: 500;
+  border-right: 2px dashed #000;
+}
+
+.average2 {
+  position: absolute;
+  height: 12px;
+  z-index: 500;
+  border-right: 2px dashed #fff;
+}
+
+.app {
+  background-color: #939eaf;
+}
+
+/*# sourceMappingURL=main.css.map */
